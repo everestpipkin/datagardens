@@ -1,7 +1,7 @@
 # Memory Palace Assignment
 
-## about
-This is the memory palace of Connie, used to memorize her mom's phone number. After installing with the instructions below, the memory palace can be explored with the bash commands `move` and `furniture`, along with numerical input like 1, 2, 3, etc.
+## About
+This is my memory palace. It was used to memorize my mom's cell phone number because I could never memorize it, despite it being a very important number to memorize. After installing with the instructions below, the memory palace can be explored with the bash commands `move` and `furniture`, along with numerical input like 1, 2, 3, etc.
 
 `move` will show you where you are "physically" within the memory palace, and provide you with options for where you can go.
 
@@ -19,11 +19,14 @@ The path through this site is:
 3. Bathroom
 4. Alyssa's Room
 
-## install
+Files with the extension `.md` are the files that are important to the memory palace sequence, while `.txt` filetypes are merely decorative.
+Each file contains ASCII art of what it represents, along with the link to the ASCII art's origin if it was not created by me.
 
-For the commands used during the presentation to work, we need to set aliases in our .bashrc file.
+## Install
 
-First, move the files in the scripts_used folder to a folder in the root directory called `scripts`.
+For the commands used during the presentation to work, we need to set aliases in our `.bashrc` file.
+
+First, move the files in the `scripts_used` folder to a folder in the root directory called `scripts`.
 
 Then, in the file at path `~/.bashrc` add these lines:
 ```
