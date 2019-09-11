@@ -1,0 +1,6 @@
+
+Took a poem from Ben Lerner's "The Lichtenberg Figures" and tried to spatialize it using the fewest possible cues for each line of the poem. 
+The poem has 4 stanzas, so the palace has 4 floors. 
+I tried to make the file names descriptive of actual objects, but also indicative of the line of the poem they carry. 
+
+*Doesn't really accomplish the memorization aspect--lines of poem are inscribed within the files*
