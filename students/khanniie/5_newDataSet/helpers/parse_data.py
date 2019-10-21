@@ -16,11 +16,12 @@ jsonPaths = ["better_than_sex_waterproof.json",
 #hash(object)
 
 final_set = {"reviews": []}
+total_reviews = 0
 
 words_to_check = ["cry", "CRY", "tears", "TEARS", "sob", "SOB"]
 
 for file in jsonPaths:
-    with open("json/" + file) as json_file:
+    with open("../all_json/" + file) as json_file:
         data = json.load(json_file)
         product_name = data["product_name"]
         brand = data["brand"]
@@ -28,6 +29,7 @@ for file in jsonPaths:
         url = data["url"]
         reviews = data["reviews"]
         for r in reviews:
+            total_reviews = total_reviews + 1
             body = reviews[r]["description"]
             title = reviews[r]["title"]
             stars = reviews[r]["stars"]
@@ -55,6 +57,7 @@ for file in jsonPaths:
 print("done with " + str(len(final_set["reviews"])) + " reviews")
 
 final_set["number_of_reviews"] = len(final_set["reviews"])
+print(total_reviews)
 
 with open('crying_dataset.json', 'w') as outfile:
     json.dump(final_set, outfile, sort_keys=True, indent=4, separators=(',', ': '))
