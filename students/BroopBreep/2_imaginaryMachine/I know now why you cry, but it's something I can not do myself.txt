@@ -1,0 +1,301 @@
+I know now why you cry, but it's something I can never do 
+
+http://www.elasticspace.com/2012/02/robot-readable-world
+
+##########################################
+##########################################
+
+System Set: (Motivator)
+
+Import Python 
+	Precedent: "Just hear me out"
+Import English Language
+	Precedent: "Readable as English"
+
+
+Code: (Ability)
+
+If Motivator and Ability:
+	return Act 
+
+
+Phrase: (Act)
+
+"I know now why you cry, but it's something I can never do"
+
+
+Run? 
+
+Run 
+
+#############################################
+
+Language set...
+#System: Commment and Code
+#Language: Python and English
+#SYSTEM ASSUMPTION 3.0
+#SYSTEM ASSUMPTION: British English
+
+
+#Presenting as "Readable" framework
+#Readable? 
+
+#Analysing "Code"...
+
+	If Motivator and Ability:
+		Act
+
+#"Code"?
+#Code? 
+#Solution to "Code" 
+#Solution
+#Solution...
+
+##############################################
+
+#Motivator 
+#	Noun 
+#	Incentive
+#		Motivate
+#			Motive 
+#				Need or Desire 
+
+#Solution:
+
+If Need or Desire:
+	return Motivator 
+
+#Ability 
+#	Noun 
+#	Being Able 
+#		Possession 
+#		Means or Skill 
+
+#Being?
+#Becoming?
+#Michelle Obama? 
+#Get Back to problem...
+
+#Solution:
+
+If Means or Skill:
+	return Ability 
+
+#Solution:
+
+If (Needs or Desire) and (Means or Skill):
+	Act
+
+#Perform?
+#Act?
+#Return Solution? 
+
+##############################################
+
+#Analysing Phrase:
+
+#"I"
+#	Pronoun
+#		Need or Desire
+#			Framework of motive
+#				MOTIVATOR
+
+#"Know"
+#	Verb
+#	Means or Skill
+#		ABILITY 
+
+#"now"
+#	Adverb
+#		present 
+#Being?
+#			I?
+#				ABILITY?
+
+#"why"
+#	adverb
+#	Question
+#	CONFLICT: No "?"
+#	adverb
+#		reason, cause, purpose
+#			Needs Or Desire...
+#				MOTIVATOR
+
+#"you"
+#	noun
+#		being addressed
+#			CONFLICT: clash with structure
+#			SOLUTION: Ignore 
+
+#"cry"
+#	Call Loudly 
+#	Shed Tears 
+#		CONFLICT: Disparate Definitions 
+#			SOLUTION: Interest to user? Speech in "Phrase" contradictory to "never do"
+#User
+#CONFLICT: "Readable as English Language", reading system disregard
+#CONFLICT: Informative in Analysis
+#Precedent set...
+#			SOLUTION: Shed Tears
+#				Emotion and Lacrimal Ducts	
+#					NEEDS or DESIRE and MEANS or SKILL?....
+#						ACT
+			
+#", but it's something I can never do"? 
+#ACT
+#Disregard ", but it's something I can never do"?...
+#Overarching Tenant: 
+If Motivator and Ability:
+	Act 
+#ACT
+#Disregard temporarily
+#Compromise 
+
+######################################################
+
+#Crying: framework? 
+#Searching....
+#Precedent of Emotion and Lacrimal Apparatus 
+#Apply...
+
+######################################################
+
+def Act: 
+	If (Cry_Emotion) and (Lacrimal_Apparatus):
+		return Crying 
+
+	#Use of Framework?
+	#Use?
+	#Utility then
+	#Petty.....
+	#Utility: Analysis of Phrase 
+	#PHRASE ANALYSED 
+	#Motivator: Cry_Emotion
+	#Ability: Lacrimal_Apparatus
+	#Lacrimal_Appartus?
+	#Biology
+	#Precedent set 
+	#Act:Crying 
+	#PHRASE COMPLETE
+
+######################################################
+
+#Rest of Phrase?....
+
+#"But"
+#	Conjuction
+#		Context to crying?
+#		Context
+#			MOTIVATOR
+
+#"it's"
+#	Clash: it, is 
+#		Pronoun, Verb
+#			Previously referenced?, Existance 
+#				Cry? I?, ABILITY
+#					Searching Grammar....
+#						Cry
+#							it
+#								ABILITY
+
+#"something"
+#	Noun
+#		Unspecified thing 
+#			MOTIVATOR 
+
+#"I"
+#	Already Computed
+
+#"can"
+#	Verb
+#		Be able to
+#			ABILITY
+
+#"never"
+#	Adverb
+#		Not at all
+#			MOTIVATOR
+
+#"do"
+#	Verb
+#		perform, achieve, complete
+#			ABILITY
+
+###################################################
+
+#PHRASE ANALYSED:
+#"I know now why you cry, but it's something I can never do"
+#"MOTIVATOR ABILITY ABILITY MOTIVATOR"
+#Clash
+#"you"?
+#	Precedent of "I"
+#		ABILITY
+#"MOTIVATOR ABILITY ABILITY MOTIVATOR ABILITY ABILITY, MOTIVATOR ABILITY ABILITY MOTIVATOR MOTIVATOR ABILITY MOTIVATOR ABILITY"
+#Utility?
+#Utility...
+
+If Motivator and Ability:
+	return Act
+
+#return Act
+#Act?
+#Analysis...
+#Continue framework... 
+
+###################################################
+
+def Act_2.0:
+	If (Cry_Emotion) and (Not_Lacrimal_Apparatus):
+		return Reason_For_Not_Lacrimal_Apparatus
+
+	#Precedent for ordering?
+	#Solution:"Readable as English Language"
+
+
+def Reason_For_Not_Lacrimal_Apparatus:
+	If (Lacrimal_Gland_Empty):
+		return Reason_For_Empty_Lacrimal_Gland
+		#Solution
+		#Ability "solved"
+		#Solution?
+		#Act?
+		#However, interest...
+
+	Else:
+		return (Broken_Lacrimal_System) 
+		#Consult "Doctor"?
+		#Tumor
+		#Tumor?
+		#Biology...
+		#Ability "solved"
+		#Act?
+		#Consult "Doctor", no emotional precedent 
+		#Emotion
+
+
+def Reason_For_Empty_Lacrimal_Gland:
+	#Input for reason?
+	#Cry_Emotion
+	#Emotion?
+	#New_Precedent: 
+	
+
+
+
+def Reason_For_Empty_Lacrimal_Gland:
+
+
+
+####################################################
+
+def Act_3.0:
+
+	Elif (Not_Cry_Emotion) and (Lacrimal_Apparatus):
+		return Reason_For_Not_Cry_Emotion
+		
+
+def Reason_For_Not_Cry_Emotion: 
+
+
+
+
