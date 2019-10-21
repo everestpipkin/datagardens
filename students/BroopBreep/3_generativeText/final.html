@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<meta charset="utf-8" /> 
+<style>
+#text {
+font-size: 16px;
+}
+</style>
+
+<html>
+
+    <head>
+
+    <title>Froears of the Internet</title>
+
+    <style>
+    	body{
+    		height: 100%;
+    		margin: 0px;
+
+    	}
+    	#container{
+    		display: flex;
+
+    	}
+    	img{
+    		height:100vh; 
+    	}
+    </style>
+
+    </head>
+
+    <body>
+    	<div id="container">
+    	<img src="land1.png">
+		<img src="land2.png">
+		<img src="land3.png">
+		<img src="land4.png">
+		<img src="land5.png">
+		<img src="land6.png">
+		<img src="land7.png">
+		<img src="land8.png">
+
+		</div>
+		<script type="text/javascript">
+			var frameCount = 0;
+			var container = document.getElementById("container");
+			
+			var step = function(){
+				frameCount++;
+				container.style.transform = "translate3d(" + (-1 *frameCount) + "px, 0px, 0px)";
+				window.requestAnimationFrame(step);
+			}
+
+			window.requestAnimationFrame(step);
+
+		</script>
+		</body>
+
+</html>
+
+<script>
+
+</script>
+<script src="text.js"></script>
