@@ -1,0 +1,54 @@
+body {
+    padding: 20px;
+    font-family: monospace;
+}
+
+input,
+button {
+    border: none;
+    background-image: none;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 350%;
+}
+input[type="text"] {
+    padding: 5px;
+    background-color: #dedede;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    margin: 10px;
+    height: 60px;
+    width: 500px;
+    font-size: 30px;
+    max-width: 100%;
+}
+
+input[type="text"]:focus {
+    background-color: #f2f2f2;
+}
+
+button {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    height: 70px;
+    width: 300px;
+    font-size: 30px;
+}
+
+.line {
+    font-size: 250%;
+}
+
+#content-1 {
+    width: 860px;
+    margin: 100px auto;
+    max-width: 100%;
+}

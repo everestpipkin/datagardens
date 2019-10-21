@@ -1,0 +1,2 @@
+var frog = {name: "Henry", color: "green", age: 12, likes: ["hopping", "riding bikes"]};
+

@@ -1,0 +1,16 @@
+﻿For this project i wrote a captains log. I wrote it to sound like an ai trained on explorers logs wrote it.
+
+
+This day they began the ascent. The following day was spent in cutting a small run of good soil, and thence proceed
+ in as nearly a west direction as the last. The stones at the head of a sugar-loaf. In the beginning of the party 
+proceeded from the island, these flowers which much incommoded the horses and provisions, they were baffled in every instance.
+
+
+This day they proceeded about three miles and a-half in a south westerly direction, through forest land beyond it,
+ reckoning the descent of the wombat, C Wentworth Esqs.They were enabled to pass. These flowers, which they supposed 
+to be seen, and Lieutenant Lawson. They were getting into miserable condition.
+
+
+For this writing my goal was to make it ai sound like it used n-grams as I have experience with n-grams and know generally 
+how they work and sound. I tried to make the sentences run on for quite a bit and the text only make sense in small snippets.
+ I also tried to repeat some words/phrases/topics as an ai trained on a smaller data set would.
