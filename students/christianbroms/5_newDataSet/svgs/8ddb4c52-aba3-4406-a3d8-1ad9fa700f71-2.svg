@@ -1,0 +1,6 @@
+<svg fill="none" height="32" viewbox="0 0 44 32" width="44">
+<path d="M7 1C3.68629 1 1 3.68629 1 7V25C1 28.3137 3.68629 31 7 31H37C40.3137 31 43 28.3137 43 25V7C43 3.68629 40.3137 1 37 1H7Z" stroke="white" stroke-width="2"></path>
+<path clip-rule="evenodd" d="M12 10H32V12H12V10Z" fill="white" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M12 15H32V17H12V15Z" fill="white" fill-rule="evenodd"></path>
+<path clip-rule="evenodd" d="M12 20H32V22H12V20Z" fill="white" fill-rule="evenodd"></path>
+</svg>

@@ -1,0 +1,14 @@
+<svg class="Icon Icon--cart" viewbox="0 0 31 26">
+<g class="svg-icon cart-icon--even">
+<circle cx="23" cy="23" r="1" stroke-miterlimit="10"></circle>
+<circle cx="9" cy="23" r="1" stroke-miterlimit="10"></circle>
+<path d="M0,2h5
+                      c0.6,0,1.1,0.4,1.1,1l1.7,13c0.1,0.5,0.6,1,1.1,1h15c0.5,0,1.2-0.4,1.4-0.9l3.3-8.1C28.8,7.4,28.5,7,28,7H12" fill="none" stroke-linejoin="round" stroke-miterlimit="10"></path>
+</g>
+<g class="svg-icon cart-icon--odd">
+<circle cx="22.5" cy="21.5" r="1" stroke-miterlimit="10"></circle>
+<circle cx="9.5" cy="21.5" r="1" stroke-miterlimit="10"></circle>
+<path d="M0,1.5h5c0.6,0,1.1,0.4,1.1,1l1.7,13
+                    c0.1,0.5,0.6,1,1.1,1h15c0.5,0,1.2-0.4,1.4-0.9l3.3-8.1c0.2-0.5-0.1-0.9-0.6-0.9H12" fill="none" stroke-miterlimit="10"></path>
+</g>
+</svg>

@@ -1,0 +1,4 @@
+<svg class="Icon Icon--hamburger" viewbox="0 0 24 18">
+<use class="use--even" xlink:href="/assets/ui-icons.svg#hamburger-icon--even"></use>
+<use class="use--odd" xlink:href="/assets/ui-icons.svg#hamburger-icon--odd"></use>
+</svg>
