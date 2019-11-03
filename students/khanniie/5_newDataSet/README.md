@@ -1,6 +1,6 @@
 # Sephora Reviews that Mention Crying, Sobbing or Tears
 ## Concept
-In high school, I spent a lot of time reading Sephora reviews in pursuit of the perfect object because I was afraid of wasting my money. When I read the prompt for this dataset, I remembered how extensive the data on Sephora's webiste had been. It's interesting to me that researchers use Amazon reviews as fodder for their machine learning algorithms when Sephora products sometimes recieve ~15k reviews and have really well-written and cohesive reviews overall. 
+In high school, I spent a lot of time reading Sephora reviews in pursuit of the perfect object because I was afraid of wasting my money. When I read the prompt for this dataset, I remembered how extensive the data on Sephora's webiste had been.
 
 Even more interesting is that a popular metric for a successful waterproof product is whether or not it can withstand tears and emotional turmoil. I remembered seeing a review giving an eyeliner 5 stars for surviving through a teary breakup, and I wanted to see if there would be more. Thus, for this project, I scraped Sephora's website for reviews, and filtered through them for reviews mentioning crying.
 
