@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="description" content="Streamer's Delight">
+<meta name="keywords" content="streamers,delight,streamers delight,perebite">
+<meta name="author" content="perebite">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+
+<style>
+body {
+  font-family: Arial;
+  color: white;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-image: linear-gradient(to bottom right, black, indigo);
+
+}
+
+.right {
+  right: 0;
+    background-image: linear-gradient(to bottom left, black, indigo);
+
+
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+</style>
+<script src="findata.js"></script>
+
+<script src="numselect.js"></script>
+</head>
+
+
+<body style="">
+<script>createGrid();</script>
+
+<div class = "split left">
+<div class = "centered">
+<br>
+<br>
+<br>
+<h1 style = "color:#6441A4; font-family: verdana;text-align: right; padding:0px 0px 0px 10px; ">Antecedent🔔</h1>
+
+<div id="player" style="vertical-align: center"></div>
+<div id = "videoInfo" style = "color:white; font-family: verdana; padding:0px 0px 0px 0px">loading...</div><br>
+
+<button type="button" onClick="refreshPage()">new game</button> 
+<br>
+
+<div id = "videoDesc" style = "color:white; font-family: verdana; padding:10px 0px 0px 0px"></div>
+<br>
+<br>
+
+<br>
+</div>
+</div>
+
+
+
+<div class = "split right">
+<div class = "centered">
+<br>
+<br>
+<br>
+<h1 style = "color:#6441A4; font-family: verdana;text-align: left; padding:0px 10px 0px 0px;">🔔Consequent</h1>
+
+
+<div id="player2" style="vertical-align: center"></div>
+<div id = "videoInfo2" style = "color:white; font-family: verdana; padding:0px 0px 0px 0px">loading...</div><br>
+<button type="button" onClick="refreshPage()">new game</button> 
+<br>
+<div id = "videoDesc2" style = "color:white; font-family: verdana; padding:10px 0px 0px 0px"></div>
+<br>
+<br>
+
+<br>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
