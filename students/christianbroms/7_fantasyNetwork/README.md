@@ -32,8 +32,6 @@ Is all of this text necessary? What would removing elements such as the follower
 
 Without text, Twitter becomes a very quiet place. 
 
-![](pics/presMin.png)
-
 You can try removing all the text on a page by pasting and running this piece of code in your web browser's console. 
 
 ```js
