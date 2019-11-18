@@ -22,17 +22,17 @@ This quality makes Twitter a very loud place. Text is sent back and forth quickl
 
 It's not just the content that's text, though. Here's a screenshot of a Twitter profile.
 
-[](/pics/nasaFull.png)
+[](pics/nasaFull.png)
 
 Text is used in every part of the profile. The name of the player is visible multiple times, from the very top to each individual post. There's also information about the date they joined, their location, how many followers they have, how many others they're following, a description, and lots more. There's also the panel on the right, which contains information about trends and other players to follow. Text covers this page, not even including the content of the posts. 
 
 Is all of this text necessary? What would removing elements such as the follower count do? What about removing the description? The player's name? What if all the text was gone? 
 
-[](/pics/nasaMin.png)
+[](pics/nasaMin.png)
 
 Without text, Twitter becomes a very quiet place. 
 
-[](/pics/presMin.png)
+[](pics/presMin.png)
 
 You can try removing all the text on a page by pasting and running this piece of code in your web browser's console. 
 
