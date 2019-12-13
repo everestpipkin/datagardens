@@ -1,0 +1,26 @@
+<svg class="pdxPhone" viewbox="0 0 328 655" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<path d="M0 45.86C0 20.532 20.532 0 45.86 0h236.28C307.468 0 328 20.532 328 45.86v562.286c0 25.328-20.532 45.86-45.86 45.86H45.86c-25.328 0-45.86-20.532-45.86-45.86V45.86z" id="framePhoneThin-a">
+</path>
+<filter filterunits="objectBoundingBox" height="100.8%" id="framePhoneThin-b" width="101.5%" x="-.8%" y="-.4%">
+<fegaussianblur in="SourceAlpha" result="shadowBlurInner1" stddeviation="2.5">
+</fegaussianblur>
+<feoffset in="shadowBlurInner1" result="shadowOffsetInner1">
+</feoffset>
+<fecomposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+</fecomposite>
+<fecolormatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.192881337 0">
+</fecolormatrix>
+</filter>
+</defs>
+<g fill="none" fill-rule="evenodd">
+<g>
+<use fill="#FFF" xlink:href="#framePhoneThin-a">
+</use>
+<use fill="#000" filter="url(#framePhoneThin-b)" xlink:href="#framePhoneThin-a">
+</use>
+</g>
+<path d="M14 47c0-18.778 15.222-34 34-34h232c18.778 0 34 15.222 34 34v560c0 18.778-15.222 34-34 34H48c-18.778 0-34-15.222-34-34V47z" fill="transparent" fill-rule="nonzero">
+</path>
+</g>
+</svg>

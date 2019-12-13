@@ -1,0 +1,9 @@
+<svg id="svgkennedy-comp-k03qpmmsimg" style="width:0;height:0;left:0;top:0;overflow:hidden;position:absolute" version="1.1"><defs><filter color-interpolation-filters="sRGB" id="kennedy-comp-k03qpmmsimg">
+<fecomponenttransfer result="srcRGB"></fecomponenttransfer>
+<fecolormatrix type="saturate" values="0"></fecolormatrix>
+<fecomponenttransfer><fefuncr intercept="-0.05" slope="1.1" type="linear"></fefuncr>
+<fefuncg intercept="-0.05" slope="1.1" type="linear"></fefuncg>
+<fefuncb intercept="-0.05" slope="1.1" type="linear"></fefuncb></fecomponenttransfer>
+<fecomponenttransfer><fefuncr slope="0.9" type="linear"></fefuncr><fefuncg slope="0.9" type="linear"></fefuncg><fefuncb slope="0.9" type="linear"></fefuncb></fecomponenttransfer>
+<fecomponenttransfer></fecomponenttransfer>
+</filter></defs></svg>

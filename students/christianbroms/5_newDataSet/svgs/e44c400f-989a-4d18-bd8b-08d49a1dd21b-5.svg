@@ -1,0 +1,4 @@
+<svg class="Icon Icon--dots-vertical" viewbox="0 0 7 25">
+<use class="use--even" xlink:href="/assets/ui-icons.svg#dots-vertical-icon--even"></use>
+<use class="use--odd" xlink:href="/assets/ui-icons.svg#dots-vertical-icon--odd"></use>
+</svg>

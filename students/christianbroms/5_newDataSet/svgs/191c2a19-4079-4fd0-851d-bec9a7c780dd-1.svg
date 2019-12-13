@@ -1,0 +1,13 @@
+<svg height="100%" viewbox="0 0 400 200" width="100%">
+<line style="stroke:#1ebeff;stroke-width:2" x1="0" x2="30" y1="130" y2="90"></line>
+<line style="stroke:#1ebeff;stroke-width:2" x1="30" x2="70" y1="90" y2="150"></line>
+<line style="stroke:#1ebeff;stroke-width:2" x1="70" x2="120" y1="150" y2="110"></line>
+<line style="stroke:#1ebeff;stroke-width:2" x1="120" x2="180" y1="110" y2="100"></line>
+<line style="stroke:#1ebeff;stroke-width:2" x1="180" x2="230" y1="100" y2="120"></line>
+<line style="stroke:#1ebeff;stroke-width:2" x1="230" x2="280" y1="120" y2="110"></line>
+<line style="stroke:#1ebeff;stroke-width:2" x1="290" x2="330" y1="108" y2="70"></line>
+<line style="stroke:#1ebeff;stroke-width:2" x1="330" x2="369" y1="70" y2="0"></line>
+<line style="stroke:rgba(25, 63, 79, .1);stroke-width:1" x1="285" x2="285" y1="0" y2="500"></line>
+<circle cx="285" cy="110" fill="white" r="5" stroke="#1ebeff" stroke-width="2"></circle>
+                            Sorry, your browser does not support inline SVG.
+                        </svg>

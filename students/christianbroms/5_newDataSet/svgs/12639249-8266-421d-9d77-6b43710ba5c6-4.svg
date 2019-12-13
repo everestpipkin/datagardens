@@ -1,0 +1,6 @@
+<svg height="100%" width="100%">
+<pattern height="10" id="pattern-circles-aqua" patterncontentunits="userSpaceOnUse" patternunits="userSpaceOnUse" width="10" x="0" y="0">
+<circle cx="2" cy="2" fill="#4BD2B2" id="pattern-circle-aqua" r="1"></circle>
+</pattern>
+<rect fill="url(#pattern-circles-aqua)" height="100%" id="rect" width="100%" x="0" y="0"></rect>
+</svg>

@@ -1,0 +1,28 @@
+<svg height="502.912" viewbox="0 0 768 502.912" width="768" xmlns="http://www.w3.org/2000/svg">
+<g id="step8-v2" transform="translate(5055 -15483.748)">
+<g id="steps--1" transform="translate(-1494 -4075)">
+<path class="step8-1" d="M766.267,504.412H4.732a3.458,3.458,0,0,1-3.232-3.7V5.2A3.458,3.458,0,0,1,4.732,1.5H766.267A3.458,3.458,0,0,1,769.5,5.2V500.709A3.458,3.458,0,0,1,766.267,504.412Z" id="nav-container" transform="translate(-3562.5 19557.248)"></path>
+</g>
+<g data-name="Grupo 5290" id="Grupo_5290" transform="translate(-4836 15698)">
+<rect class="step8-2" data-name="Rectángulo 1553" height="32.237" id="Rectángulo_1553" rx="4" transform="translate(0)" width="121.666"></rect>
+</g>
+<g data-name="Grupo 5294" id="Grupo_5294" transform="translate(-4684 15697.999)">
+<rect class="step8-2" data-name="Rectángulo 1553" height="33.745" id="Rectángulo_1553-2" rx="4" transform="translate(0)" width="127.356"></rect>
+</g>
+<g data-name="Grupo 5293" id="Grupo_5293" transform="translate(-4836 15765)">
+<rect class="step8-3 step-config-save" data-name="Rectángulo 1553" height="22.684" id="Rectángulo_1553-3" rx="4" transform="translate(0)" width="97.104"></rect>
+</g>
+<text class="step8-4" data-name=" Programa tus depósitos" id="_Programa_tus_depósitos" transform="translate(-4837 15641)"><tspan x="0" xml:space="preserve" y="0"> Programa tus depósitos</tspan></text>
+<text class="step8-5 step-config-from-init" data-name="$0" id="_0" transform="translate(-4792.303 15721)"><tspan x="0" y="0">$0</tspan></text>
+<text class="step8-5 step-config-to-init" data-name="$0" id="_0-2" transform="translate(-4632.77 15721)"><tspan x="0" y="0">$0</tspan></text>
+<text class="step8-6" id="a" transform="translate(-4701.003 15718)"><tspan x="0" y="0">a</tspan></text>
+<text class="step8-7" data-name="Acá puedes definir dónde irán tus depósitos de manera automática 🤖" id="Acá_puedes_definir_dónde_irán_tus_depósitos_de_manera_automática_" transform="translate(-4837.003 15655.785)"><tspan x="0" y="15">Acá puedes definir dónde irán tus depósitos de manera automática </tspan><tspan class="step8-8" y="15">🤖</tspan></text>
+<text class="step8-9" id="Guardar" transform="translate(-4790 15780)"><tspan x="-14.902" y="0">Guardar</tspan></text>
+<g id="step3" transform="translate(-1740.324 -4075)">
+<circle class="step8-3" cx="18.515" cy="18.515" data-name="Elipse 227" id="Elipse_227" r="18.515" transform="translate(-3096.676 19637.191)"></circle>
+<path class="step8-1" d="M17.192,76.874h1.027a.631.631,0,0,0,.587-.587V65.719a.631.631,0,0,0-.587-.587H17.192a.631.631,0,0,0-.587.587V76.286A.631.631,0,0,0,17.192,76.874Zm-8.806,0H9.413A.631.631,0,0,0,10,76.286v-9.1a.631.631,0,0,0-.587-.587H8.385a.631.631,0,0,0-.587.587v9.1A.631.631,0,0,0,8.385,76.874Zm4.4,0h1.027a.631.631,0,0,0,.587-.587V70.122a.631.631,0,0,0-.587-.587H12.788a.631.631,0,0,0-.587.587v6.165A.631.631,0,0,0,12.788,76.874Zm-8.806,0H5.009a.631.631,0,0,0,.587-.587V73.057a.631.631,0,0,0-.587-.587H3.982a.631.631,0,0,0-.587.587v3.229a.631.631,0,0,0,.587.587Z" data-name="Trazado 5372" id="Trazado_5372" transform="translate(-3090.206 19585.422)"></path>
+</g>
+<text class="step8-10 step8-10 step-config-from" data-name="$250.000" id="_250.000" transform="translate(-4813.28 15721)"><tspan x="0" y="0">$250.000</tspan></text>
+<text class="step8-10 step8-10 step-config-to" data-name="$1.000.000" id="_1.000.000" transform="translate(-4660.537 15721)"><tspan x="0" y="0">$1.000.000</tspan></text>
+</g>
+</svg>
