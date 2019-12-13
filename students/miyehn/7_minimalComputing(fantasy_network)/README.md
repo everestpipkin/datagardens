@@ -4,7 +4,7 @@ A (hypothetical) message sending tool that is made possible by the help of small
 
 Created by [Connie Ye](https://connieye.com/) and [Rain Du](https://miyehn.me)
 
-*All of the lovely art is by Rain*
+*All of the lovely art is by Rain.*
 
 ## How it works
 
@@ -37,7 +37,7 @@ Above shows how the receiver recovers the original message.
 
 ## Inspirations
 
-For this project, we were inspired by cryptography, pideon carriers, networking methods such as packets, and more. Cryptography is a wonderfully rich field, and a fascinating part is that many modes of encryption rely upon the idea that some problems (factoring a large product of prime numbers) are just too computationally heavy to solve.
+For this project, we were inspired by cryptography, pideon carriers, networking methods such as packets, and more. Cryptography is a wonderfully rich field, and a fascinating part is that many modes of encryption rely upon the idea that some problems (factoring a large product of prime numbers) are just too computationally heavy to solve. For this project, we were inspired by the tension between the rapid improvement of computing power and our reliance upon computational limits.
 
 ## Usage
 
