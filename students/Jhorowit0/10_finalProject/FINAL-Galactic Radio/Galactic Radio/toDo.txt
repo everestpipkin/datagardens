@@ -1,0 +1,23 @@
+-Create Obs
+    -asteroid
+    -planet
+    -moon
+
+-create BroadCast Points
+    -float
+    -planetbase
+    -moonbase
+
+-make fullscreen
+
+-make art
+    -radar
+    -tabletop
+    -buttons
+    -frequency display
+    -text display
+    -misc
+
+-write script
+
+-implement script into broadcast Points
