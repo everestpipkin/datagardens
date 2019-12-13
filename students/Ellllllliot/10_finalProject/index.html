@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>topsoil</title>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="scrolling.css">
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		
+	</head>
+
+	<body>
+
+		
+		<!-- https://www.html.am/html-codes/marquees/scrolling-text.cfm -->
+
+		<marquee behavior="scroll" direction="left" id="scroll" >
+			The Nike Alpha Huarache Elite Low Premium By You lets you swing for the fences by crafting your perfect cleat. Start with Nike Air and Zoom Air for a double dose of cushioning, then customize the colors, traction, premium materials and personalized details.
+		</marquee>
+
+		<div id="halfOne">
+			
+			<!-- https://github.com/gijsroge/tilt.js/tree/master/demo -->
+
+			<!-- Youtube Tutorial for data-tilt function-->
+
+			<!-- https://www.youtube.com/watch?v=6KtPKToGVuw -->
+
+			<img data-tilt src="images/editedFlowers/acacia.png" id="imgHalfOne" />
+
+
+		</div>
+
+		<div id="text">
+			
+			<h1 id="textH1"> 
+				hello fellow outfielder
+			</h1>
+
+		</div>
+
+		<div id="cleats">
+			
+			<img  src="images/editedCleats/Cleat6.png" id="cleatsImage" class="zoom"/>
+		</div>
+
+		<div id="quadrantTR">
+			<img data-tilt src="images/editedFlowers/aster.png" id="imgQuadrantTR" />
+		</div>
+
+		<div id="quadrantBR">
+			
+			<img data-tilt src="images/editedFlowers/acacia.png" id="imgQuadrantBR" />
+		</div>
+
+		<div id="title">
+			<a href="about.html">
+				<h1> <i>TOPSOIL</i> </h1>
+			</a>
+		</div>
+		<audio id="audio" autoplay controls loop>
+		  <source src="topsoilSounds.mp3" type="audio/mp3">
+		  Your browser does not support the audio element.
+		</audio><br>
+		<audio id="playAudio" autoplay loop>
+		  <source src="topsoilSounds.mp3" type="audio/mp3">
+		  Your browser does not support the audio element.
+		</audio><br>
+
+		<audio id="dirt" >
+			<source src="dirtScrub.wav" type="audio/wav"
+			Your browser does not support the audio element.
+		</audio>
+	</body>
+</html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+<script src="text.js"></script>
+<script src="script.js"></script>

@@ -1,0 +1,18 @@
+<svg id="svgwhistler-comp-jhgzt72nimg" style="width:0;height:0;left:0;top:0;overflow:hidden;position:absolute" version="1.1"><defs><filter color-interpolation-filters="sRGB" id="whistler-comp-jhgzt72nimg">
+<fecomponenttransfer result="srcRGB"></fecomponenttransfer>
+<fecolormatrix in="SourceGraphic" result="color" type="matrix" values="0 0 0 0 1
+     0 0 0 0 1
+     0 0 0 0 1
+     0 0 0 1 0"></fecolormatrix>
+<fecomponenttransfer in="color" result="flood_alpha"><fefunca slope="0.4" type="linear"></fefunca></fecomponenttransfer>
+<fegaussianblur in="srcRGB" stddeviation="1.8"></fegaussianblur>
+<fecomponenttransfer result="blur_alpha"><fefunca slope="0.6" type="linear"></fefunca></fecomponenttransfer>
+<feblend in="blur_alpha" in2="srcRGB" mode="normal" result="source_blur"></feblend>
+<feblend in="flood_alpha" in2="source_blur" mode="overlay"></feblend>
+<fecomponenttransfer><fefuncr slope="1.1" type="linear"></fefuncr><fefuncg slope="1.1" type="linear"></fefuncg><fefuncb slope="1.1" type="linear"></fefuncb></fecomponenttransfer>
+<fecomponenttransfer><fefuncr intercept="0.05" slope="0.9" type="linear"></fefuncr>
+<fefuncg intercept="0.05" slope="0.9" type="linear"></fefuncg>
+<fefuncb intercept="0.05" slope="0.9" type="linear"></fefuncb></fecomponenttransfer>
+<fecolormatrix type="saturate" values="0.6"></fecolormatrix>
+<fecomponenttransfer></fecomponenttransfer>
+</filter></defs></svg>

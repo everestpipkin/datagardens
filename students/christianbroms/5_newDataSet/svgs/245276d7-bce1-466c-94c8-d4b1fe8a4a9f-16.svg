@@ -1,0 +1,10 @@
+<svg class="icon-link__icon" fill="currentColor" height="35" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" frameborder="0" height="360" src="https://player.vimeo.com/video/353309977" width="640"></iframe>
+<g>
+<path d=" M 8.635 7.586 L 15.704 11.71 C 15.807 11.77 15.871 11.881 15.871 12 C 15.871 12.119 15.807 12.23 15.704 12.29 L 8.635 16.414 C 8.531 16.475 8.402 16.475 8.298 16.415 C 8.193 16.354 8.129 16.243 8.129 16.122 L 8.129 7.877 C 8.129 7.756 8.194 7.645 8.298 7.585 C 8.403 7.525 8.531 7.525 8.635 7.586 L 8.635 7.586 Z"></path>
+</g>
+<g>
+<circle class="icon-link__icon__circle outline" cx="11" cy="12" r="10" stroke-width="1"></circle>
+<circle class="icon-link__icon__circle filled" cx="11" cy="12" r="10" stroke-width="1"></circle>
+</g>
+</svg>

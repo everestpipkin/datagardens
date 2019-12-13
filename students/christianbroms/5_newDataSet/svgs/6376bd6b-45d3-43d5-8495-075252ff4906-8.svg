@@ -1,0 +1,63 @@
+<svg height="502.912" viewbox="0 0 768 502.912" width="768" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g data-name="Grupo 5297" id="Grupo_5297" transform="translate(5857 -15483.748)">
+<g id="steps--1" transform="translate(-2296 -4075)">
+<path class="step7-1" d="M766.267,504.412H4.732a3.458,3.458,0,0,1-3.232-3.7V5.2A3.458,3.458,0,0,1,4.732,1.5H766.267A3.458,3.458,0,0,1,769.5,5.2V500.709A3.458,3.458,0,0,1,766.267,504.412Z" id="nav-container" transform="translate(-3562.5 19557.248)"></path>
+</g>
+<g data-name="Grupo 5289" id="Grupo_5289" transform="translate(-5404 15652.273)">
+<rect class="step7-2 step-config-button" data-name="Rectángulo 1553" height="22.684" id="Rectángulo_1553" rx="4" transform="translate(0)" width="97.104"></rect>
+</g>
+<text class="step7-3" data-name="Mis Inversiones" id="Mis_Inversiones" transform="translate(-5639 15641)"><tspan x="0" y="0">Mis Objetivos</tspan></text>
+<text class="step7-4" data-name="Depositado: $21.100.528
+Balance Actual: $22.490.063" id="Depositado:_21.100.528_Balance_Actual:_22.490.063" transform="translate(-5639.003 15659.785)"><tspan x="0" y="0">Depositado: $21.100.528</tspan><tspan x="0" y="10">Balance Actual: $22.490.063</tspan></text>
+<text class="step7-5 step-config-button--text" data-name="Configurar depósitos" id="Configurar_depósitos" transform="translate(-5318 15666.785)"><tspan x="-74.82" y="0">Configurar depósitos</tspan></text>
+<g id="step3" transform="translate(-2542.324 -4075)">
+<circle class="step7-6" cx="18.515" cy="18.515" data-name="Elipse 227" id="Elipse_227-2" r="18.515" transform="translate(-3096.676 19637.191)"></circle>
+<path class="step7-1" d="M17.192,76.874h1.027a.631.631,0,0,0,.587-.587V65.719a.631.631,0,0,0-.587-.587H17.192a.631.631,0,0,0-.587.587V76.286A.631.631,0,0,0,17.192,76.874Zm-8.806,0H9.413A.631.631,0,0,0,10,76.286v-9.1a.631.631,0,0,0-.587-.587H8.385a.631.631,0,0,0-.587.587v9.1A.631.631,0,0,0,8.385,76.874Zm4.4,0h1.027a.631.631,0,0,0,.587-.587V70.122a.631.631,0,0,0-.587-.587H12.788a.631.631,0,0,0-.587.587v6.165A.631.631,0,0,0,12.788,76.874Zm-8.806,0H5.009a.631.631,0,0,0,.587-.587V73.057a.631.631,0,0,0-.587-.587H3.982a.631.631,0,0,0-.587.587v3.229a.631.631,0,0,0,.587.587Z" data-name="Trazado 5372" id="Trazado_5372" transform="translate(-3090.206 19585.422)"></path>
+</g>
+<g class="step-inv-4" id="new-inv">
+<g data-name="Grupo 5295" id="Grupo_5295" transform="translate(-5639 15908.273)">
+<rect class="step7-2" data-name="Rectángulo 1553" height="66.036" id="Rectángulo_1553-2" rx="4" transform="translate(0)" width="332.104"></rect>
+</g>
+<text class="step7-7" data-name="Nueva Inversión" id="Nueva_Inversión" transform="translate(-5568.537 15944.785)"><tspan x="0" y="0">Nueva Inversión</tspan></text>
+<g data-name="step3" id="step3-2" transform="translate(-5612.466 15923.877)">
+<g class="step7-12" transform="matrix(1, 0, 0, 1, -244.53, -440.13)">
+<circle class="step7-1" cx="16.535" cy="16.535" data-name="Elipse 227" id="Elipse_227-3" r="16.535" transform="translate(244.53 440.13)"></circle>
+</g>
+<path class="step7-6" d="M15.716,75.617h.918a.564.564,0,0,0,.524-.524V65.656a.564.564,0,0,0-.524-.524h-.918a.564.564,0,0,0-.524.524v9.437A.564.564,0,0,0,15.716,75.617Zm-7.864,0h.918a.564.564,0,0,0,.524-.524V66.967a.564.564,0,0,0-.524-.524H7.851a.564.564,0,0,0-.524.524v8.126A.564.564,0,0,0,7.851,75.617Zm3.932,0H12.7a.564.564,0,0,0,.524-.524V69.588a.564.564,0,0,0-.524-.524h-.918a.564.564,0,0,0-.524.524v5.505A.564.564,0,0,0,11.783,75.617Zm-7.864,0h.918a.564.564,0,0,0,.524-.524V72.209a.564.564,0,0,0-.524-.524H3.919a.564.564,0,0,0-.524.524v2.884a.564.564,0,0,0,.524.524Z" data-name="Trazado 5372" id="Trazado_5372-2" transform="translate(5.415 -53.199)"></path>
+</g>
+</g>
+<g class="step-inv-1" id="inv-1">
+<g data-name="Grupo 5286" id="Grupo_5286" transform="translate(-5639 15686.273)">
+<rect class="step7-2" data-name="Rectángulo 1553" height="66.036" id="Rectángulo_1553-3" rx="4" transform="translate(0)" width="332.104"></rect>
+</g>
+<text class="step7-8" data-name="Mi primera inversión" id="Mundial_Qatar_2022" transform="translate(-5612.003 15712.785)"><tspan x="0" y="0">Mi primera inversión</tspan></text>
+<text class="step7-9" data-name="$ 1.567.003" id="_1.567.003" transform="translate(-5612.003 15736.785)"><tspan x="0" y="0">$ 1.567.003</tspan></text>
+<g id="baseline-keyboard_arrow_right-24px" transform="translate(-5346.738 15708)">
+<path class="step7-10" d="M8.59,15.125l3.946-3.955L8.59,7.215,9.8,6l5.17,5.17L9.8,16.34Z" data-name="Trazado 5264" id="Trazado_5264" transform="translate(-0.296 0.032)"></path>
+<path class="step7-11" d="M0,0H22.4V22.4H0Z" data-name="Trazado 5265" id="Trazado_5265"></path>
+</g>
+</g>
+<g class="step-inv-2" id="inv-2">
+<g data-name="Grupo 5287" id="Grupo_5287" transform="translate(-5639 15760.273)">
+<rect class="step7-2" data-name="Rectángulo 1553" height="66.036" id="Rectángulo_1553-4" rx="4" transform="translate(0)" width="332.104"></rect>
+</g>
+<text class="step7-8" data-name="Jubilación con APV" id="Jubilación_con_APV" transform="translate(-5612.003 15786.785)"><tspan x="0" y="0">Jubilación con APV</tspan></text>
+<text class="step7-9" data-name="$ 20.923.060" id="_20.923.060" transform="translate(-5612.003 15810.785)"><tspan x="0" y="0">$ 20.923.060</tspan></text>
+<g data-name="baseline-keyboard_arrow_right-24px" id="baseline-keyboard_arrow_right-24px-2" transform="translate(-5346.738 15782)">
+<path class="step7-10" d="M8.59,15.125l3.946-3.955L8.59,7.215,9.8,6l5.17,5.17L9.8,16.34Z" data-name="Trazado 5264" id="Trazado_5264-2" transform="translate(-0.296 0.032)"></path>
+<path class="step7-11" d="M0,0H22.4V22.4H0Z" data-name="Trazado 5265" id="Trazado_5265-2"></path>
+</g>
+</g>
+<g class="step-inv-3" id="inv-3">
+<g data-name="Grupo 5296" id="Grupo_5296" transform="translate(-5639 15834.273)">
+<rect class="step7-2" data-name="Rectángulo 1553" height="66.036" id="Rectángulo_1553-5" rx="4" transform="translate(0)" width="332.104"></rect>
+</g>
+<text class="step7-8" data-name="Mundial Qatar 2022" id="Mi_primera_inversión" transform="translate(-5612.003 15860.785)"><tspan x="0" y="0">Mundial Qatar 2022</tspan></text>
+<text class="step7-9" data-name="$ 100.028" id="_100.028" transform="translate(-5612.003 15884.785)"><tspan x="0" y="0">$ 100.028</tspan></text>
+<g data-name="baseline-keyboard_arrow_right-24px" id="baseline-keyboard_arrow_right-24px-3" transform="translate(-5346.738 15856)">
+<path class="step7-10" d="M8.59,15.125l3.946-3.955L8.59,7.215,9.8,6l5.17,5.17L9.8,16.34Z" data-name="Trazado 5264" id="Trazado_5264-3" transform="translate(-0.296 0.032)"></path>
+<path class="step7-11" d="M0,0H22.4V22.4H0Z" data-name="Trazado 5265" id="Trazado_5265-3"></path>
+</g>
+</g>
+</g>
+</svg>

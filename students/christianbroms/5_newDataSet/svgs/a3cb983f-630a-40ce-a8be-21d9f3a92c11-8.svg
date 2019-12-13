@@ -1,0 +1,9 @@
+<svg class="injected-svg icon icon-lg bg-primary" data-src="assets/img/icons/theme/shopping/credit-card.svg" height="24px" version="1.1" viewbox="0 0 24 24" width="24px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Icon For Credit-card</title>
+<g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+<rect height="24" opacity="0" width="24" x="0" y="0"></rect>
+<rect fill="#000000" height="14" opacity="0.3" rx="2" width="20" x="2" y="5"></rect>
+<rect fill="#000000" height="3" width="20" x="2" y="8"></rect>
+<rect fill="#000000" height="2" opacity="0.3" rx="1" width="4" x="16" y="14"></rect>
+</g>
+</svg>

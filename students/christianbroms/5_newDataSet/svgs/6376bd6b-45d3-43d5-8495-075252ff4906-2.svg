@@ -1,0 +1,66 @@
+<svg height="502.912" viewbox="0 0 768 502.912" width="768" xmlns="http://www.w3.org/2000/svg">
+<g id="step1-v2" transform="translate(5857 -14089.748)">
+<g id="steps--1" transform="translate(-2296 -5469)">
+<path class="step1-1" d="M766.267,504.412H4.732a3.458,3.458,0,0,1-3.232-3.7V5.2A3.458,3.458,0,0,1,4.732,1.5H766.267A3.458,3.458,0,0,1,769.5,5.2V500.709A3.458,3.458,0,0,1,766.267,504.412Z" id="nav-container" transform="translate(-3562.5 19557.248)"></path>
+<g id="option">
+<rect class="step1-2" data-name="Rectángulo 1562" height="58.627" id="Rectángulo_1562" transform="translate(-3343 19828)" width="331.727"></rect>
+<g id="baseline-keyboard_arrow_right-24px" transform="translate(-3049.739 19846)">
+<path class="step1-3" d="M8.59,15.125l3.946-3.955L8.59,7.215,9.8,6l5.17,5.17L9.8,16.34Z" data-name="Trazado 5264" id="Trazado_5264" transform="translate(-0.296 0.032)"></path>
+<path class="step1-4" d="M0,0H22.4V22.4H0Z" data-name="Trazado 5265" id="Trazado_5265"></path>
+</g>
+<text class="step1-5" id="No" transform="translate(-3306.865 19864)"><tspan x="0" y="0">No</tspan></text>
+</g>
+<g data-name="option" id="option-2" transform="translate(0 57)">
+<path class="step1-2" d="M0,0H331.727a0,0,0,0,1,0,0V50.627a8,8,0,0,1-8,8H8a8,8,0,0,1-8-8V0A0,0,0,0,1,0,0Z" data-name="Rectángulo 1562" id="Rectángulo_1562-2" transform="translate(-3343 19828)"></path>
+<g data-name="baseline-keyboard_arrow_right-24px" id="baseline-keyboard_arrow_right-24px-2" transform="translate(-3049.739 19846)">
+<path class="step1-3" d="M8.59,15.125l3.946-3.955L8.59,7.215,9.8,6l5.17,5.17L9.8,16.34Z" data-name="Trazado 5264" id="Trazado_5264-2" transform="translate(-0.296 0.032)"></path>
+<path class="step1-4" d="M0,0H22.4V22.4H0Z" data-name="Trazado 5265" id="Trazado_5265-2"></path>
+</g>
+<text class="step1-5" data-name="Sólo ahorros" id="Sólo_ahorros" transform="translate(-3306.865 19864)"><tspan x="0" y="0">Sólo ahorros</tspan></text>
+</g>
+<g class="click-1" data-name="option" id="option-3">
+<path class="step1-2 click-color" d="M8,0H323.727a8,8,0,0,1,8,8V58.627a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V8A8,8,0,0,1,8,0Z" data-name="Rectángulo 1563" id="Rectángulo_1563" transform="translate(-3343 19771)"></path>
+<g data-name="baseline-keyboard_arrow_right-24px" id="baseline-keyboard_arrow_right-24px-3" transform="translate(-3049.739 19789)">
+<path class="step1-3 click-color--inverted" d="M8.59,15.125l3.946-3.955L8.59,7.215,9.8,6l5.17,5.17L9.8,16.34Z" data-name="Trazado 5264" id="Trazado_5264-3" transform="translate(-0.296 0.032)"></path>
+<path class="step1-4" d="M0,0H22.4V22.4H0Z" data-name="Trazado 5265" id="Trazado_5265-3"></path>
+</g>
+<text class="step1-5 click-color--inverted" id="Sí" transform="translate(-3306.865 19807)"><tspan x="0" y="0">Sí</tspan></text>
+</g>
+<text class="step1-6" id="title" transform="translate(-3176 19738.857)"><tspan x="-131.994" y="0">¿Tienes experiencia invirtiendo?</tspan></text>
+<g id="progress">
+<rect class="step1-7" height="5.697" id="progress-bar" transform="translate(-3258.047 19653.043)" width="164.518"></rect>
+<rect class="step1-8" height="5.697" id="progress-bar--active" transform="translate(-3258.047 19653.043)" width="12.819"></rect>
+</g>
+<g id="step1" transform="translate(1)">
+<circle class="step1-8" cx="18.515" cy="18.515" data-name="Elipse 225" id="Elipse_225" r="18.515" transform="translate(-3294.655 19637.191)"></circle>
+<path class="step1-1" d="M75.387,587.785a11.092,11.092,0,0,0-7.873,18.9,9.713,9.713,0,0,1,15.862-.121,11.089,11.089,0,0,0-7.989-18.784Zm.093,13.588a4.57,4.57,0,1,1,4.571-4.57A4.57,4.57,0,0,1,75.48,601.373Z" data-name="Trazado 5270" id="Trazado_5270" transform="translate(-3351.821 19056.527)"></path>
+</g>
+<g id="step2" transform="translate(1)">
+<circle class="step1-7" cx="18.515" cy="18.515" data-name="Elipse 226" id="Elipse_226" r="18.515" transform="translate(-3194.953 19637.191)"></circle>
+<g data-name="Grupo 5259" id="Grupo_5259">
+<g data-name="Grupo 5073" id="Grupo_5073" transform="translate(-3186.407 19650.758)">
+<path class="step1-8" d="M332.713,611.171H315.335a.836.836,0,0,1,0-1.671h17.378a.836.836,0,0,1,0,1.671Z" data-name="Trazado 5266" id="Trazado_5266" transform="translate(-314.5 -609.5)"></path>
+</g>
+<g data-name="Grupo 5074" id="Grupo_5074" transform="translate(-3183.734 19648.586)">
+<path class="step1-8" d="M325.508,603a3.008,3.008,0,1,0,3.008,3.008A3.011,3.011,0,0,0,325.508,603Z" data-name="Trazado 5267" id="Trazado_5267" transform="translate(-322.5 -603)"></path>
+</g>
+<g data-name="Grupo 5075" id="Grupo_5075" transform="translate(-3186.407 19660.729)">
+<path class="step1-8" d="M315.335,633.5h17.378a.836.836,0,0,1,0,1.671H315.335a.836.836,0,0,1,0-1.671Z" data-name="Trazado 5268" id="Trazado_5268" transform="translate(-314.5 -633.5)"></path>
+</g>
+<g data-name="Grupo 5076" id="Grupo_5076" transform="translate(-3176.047 19658.557)">
+<path class="step1-8" d="M348.508,633.016a3.008,3.008,0,1,0-3.008-3.008,3.011,3.011,0,0,0,3.008,3.008Z" data-name="Trazado 5269" id="Trazado_5269" transform="translate(-345.5 -627)"></path>
+</g>
+</g>
+</g>
+<g id="step3" transform="translate(1)">
+<circle class="step1-7" cx="18.515" cy="18.515" data-name="Elipse 227" id="Elipse_227" r="18.515" transform="translate(-3096.676 19637.191)"></circle>
+<g data-name="Grupo 5260" id="Grupo_5260">
+<path class="step1-8" d="M424.923,721.133l5.728,5.3a.9.9,0,0,1,.039,1.28l-.323.338a.9.9,0,0,1-.442.254l-.365.087v.422a.9.9,0,0,1-.354.715l-.623.474a.9.9,0,0,1-.922.1l-.165-.077-.135.355a.9.9,0,0,1-.46.494l-1.159.541a.9.9,0,0,1-.608.056l-.508-.134a.9.9,0,0,0-.695.1l-.54.328a.9.9,0,0,1-.866.037l-2.133-1.058a.906.906,0,0,1-.252-.186l-8.731-9.185a.9.9,0,0,1,.016-1.255l3.15-3.15a.9.9,0,0,1,1.29.019l1.706,1.813a.9.9,0,0,0,.654.283h1.156a.9.9,0,0,1,.309.055l4.932,1.8A.913.913,0,0,1,424.923,721.133Z" data-name="Trazado 5271" id="Trazado_5271" transform="translate(-3501.705 18933.348)"></path>
+<path class="step1-9" d="M437.822,716.782l-2.447,1.872a.607.607,0,0,1-.64.061l-2.374-1.187a.57.57,0,0,0-.135-.049l-3.418-.791a.607.607,0,0,0-.549.146l-3.546,3.282a.607.607,0,0,0-.188.534l.107.722a.607.607,0,0,0,.547.516l.822.073a.6.6,0,0,0,.391-.1l2.254-1.509a.608.608,0,0,1,.547-.066l1.785.655a.609.609,0,0,1,.2.124l4.613,4.272a.607.607,0,0,0,.782.035l5.433-4.18a.607.607,0,0,0,.059-.91l-3.449-3.449A.607.607,0,0,0,437.822,716.782Z" data-name="Trazado 5272" id="Trazado_5272" transform="translate(-3508.007 18933.375)"></path>
+</g>
+</g>
+<line class="step1-10" data-name="Línea 96" id="Línea_96" transform="translate(-3342.5 19829.5)" x2="331"></line>
+<line class="step1-10" data-name="Línea 97" id="Línea_97" transform="translate(-3342.5 19885.5)" x2="331"></line>
+</g>
+</g>
+</svg>
