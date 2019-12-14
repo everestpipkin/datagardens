@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<meta charset="utf-8" /> 
+<style>
+#text {
+}
+
+#inputSection {
+    width: 300px;  
+    height: 300px;
+}
+
+#note {
+    /*border: 1px solid black;*/
+    width: 400px;  
+    height: 600px;
+    text-align: left;
+    background-image: url("images/paper.jpg");
+    background-size: 400px;
+    line-height: 1;
+    position: relative;
+}
+
+#to {
+    /*border: 1px solid black;*/
+    width: 150px;  
+    height: 10px;
+    text-align: left;
+    position: absolute;
+    left: 40px;
+    top: 50px;
+}
+
+#text {
+    /*border: 1px solid black;*/
+    width: 325px;  
+    height: 325px;
+    text-align: left;
+    line-height: 1;
+    position: absolute;
+    left: 40px;
+    top: 100px;
+}
+
+#from {
+    /*border: 1px solid black;*/
+    width: 100px;  
+    height: 30px;
+    text-align: left;
+    position: absolute;
+    left: 40px;
+    top: 450px;
+}
+
+#image {
+    /*border: 1px solid black;*/
+    width: 30px;  
+    height: 30px;
+    position: absolute;
+    right: 150px;
+    bottom: 120px;
+}
+
+</style>
+
+<html>
+<body style="background-color: lightblue;">
+
+    <head>
+
+    <title>Leave a Letter</title>
+
+    </head>
+
+    <body>
+        <br>
+        <center>Send a message to someone you miss, or even a person you never knew.</center></p> 
+        <br><br><br>
+        <div id="inputSection">Leave a note:
+        <br><br> 
+        <form name="noteForm">
+
+            To: <input type="text" name="to"><br><br> 
+            From: <input type="text" name="from"><br><br>  
+
+        Leave a flower:<br> 
+        <select name="images">
+       <!--      <optgroup label="trees">
+                <option value="oak">Oak</option>
+                <option value="fir">Fir</option>
+                <option value="pine">Pine</option>
+            </optgroup> -->
+            <optgroup label="flowers">
+                <option value="daisy">Daisy</option>
+                <option value="rose">Rose</option>
+                <option value="crocus">Crocus</option>
+                <option value="Forget-Me-Not">Forget-Me-Not</option>
+
+            </optgroup>
+        </select>
+        <br><br> 
+        Write a message:<br> 
+        <textarea rows="4" cols="50" name="text" maxlength="850"> </textarea>
+        <br>
+
+        <button type="button" onclick="notePopulator()">Submit</button>
+        </form>
+        </div>
+        <br>
+        <br> 
+        <center>
+        <div id="note">
+            <div id="to"></div>
+            <div id="text"></div>
+           <div id="from"></div>
+           <div id="image"></div>
+        </div>
+        </center>
+
+    </body>
+
+</html>
+
+<script>
+    function notePopulator(){
+        var to = document.noteForm.to.value
+        var from = document.noteForm.from.value
+        var image = document.noteForm.images.value
+        var text = document.noteForm.text.value
+
+        var imageHTML = "<img src='images/"+image+".png' width='100px'>"
+
+        document.getElementById("to").innerHTML = "To: " + to;
+
+        document.getElementById("text").innerHTML = text;
+
+        document.getElementById("from").innerHTML = "From: " + from;
+
+        document.getElementById("image").innerHTML = imageHTML;
+
+        //document.getElementById("note").innerHTML = "To: " + to + "<br><br><br>" + text + "<br><br>" + "<br>From: " + from + "<br><br>" + imageHTML;
+
+    }
+
+
+</script>
