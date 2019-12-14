@@ -46,7 +46,7 @@ For the code, please see my [screenshot-capture](https://github.com/khanniie/scr
 
 I have an extension that can take a screenshot of a webpage, and send it as an email! 
 
-It's still a little buggy, but I hope to fix iron out the bugs soon. There is also the potential for a one time performance piece where I do hook it up to a physical postcard API, but I'm satisfied to let the piece live through email instead because this method is more sustainable.
+There is also the potential for a one time performance piece where I do hook it up to a physical postcard API, but I'm satisfied to let the piece live through email instead because this method is more sustainable.
 
 #### Gifs of postcard maker
 
