@@ -17,7 +17,7 @@ Because we had already written the code, our main task was to deploy the tool on
 To refamiliarize myself with the various bugs and workflow of MLdraw, I made a fresh demo video for the project! I did my best to demonstrate how various pix2pix models could be used in harmony, along with good clipping and bounding boxes.
 
 Video is linked below, clicking on the image will take you to vimeo.
-![mldraw-assets](assets/mldraw-vimeo.png)
+[![mldraw-assets](assets/mldraw-vimeo.png)](https://vimeo.com/378759111)
 
 ### Result
 Mldraw is live at [mldraw.com](mldraw.com)! After the crit, it's clear that I need to do more user testing because parts of the interface need work, and I asked the class to provide feedback in [this Google doc](https://docs.google.com/document/d/1p9yDmnnGssM7M45s-ksKf4XmhgAgXnyP7GOi9_52u4I/edit). I'm super grateful for the feedback provided, it was amazingly useful! We still need to go public soon, before our free trial credit runs out, but I hope to continue to work on the parts of it before then!
@@ -28,7 +28,7 @@ For the code, please see the [mldraw](https://github.com/khanniie/mldraw) reposi
 
 ### Concept
 
-Started in Spring 2019, Internet Postcards is a chrome extension that allows you to generate physical, mailable postcards from your internet adventures. More specifically, this chrome extension takes a screenshot of the webpage that you are currently browsing, and opens an overlay in which you can postcard-ify the postcard with some decorative text, leave a message on the back and send the postcard result to a real physical address using an online direct mailing service. See this page for more info.
+Started in Spring 2019, Internet Postcards is a chrome extension that allows you to generate physical, mailable postcards from your internet adventures. More specifically, this chrome extension takes a screenshot of the webpage that you are currently browsing, and opens an overlay in which you can postcard-ify the postcard with some decorative text, leave a message on the back and send the postcard result to a real physical address using an online direct mailing service. 
 
 This project was inspired by my nostalgia for the physical artifacts that result from traveling. Although I love sending postcards home to my mom, I rarely travel away from the university campus and my room. This project is my solution; if the only places that I visit are online, then why not send postcards from those locations instead?
 
