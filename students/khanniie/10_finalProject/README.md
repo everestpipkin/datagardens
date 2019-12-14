@@ -44,13 +44,16 @@ For the code, please see my [screenshot-capture](https://github.com/khanniie/scr
 
 ### Result
 
-A extension that can take a screenshot of a webpage, and send it as an email! It's still a little buggy, but I hope to fix iron out the bugs soon. There is also the potential for a one time performance piece where I do hook it up to a physical postcard API, but I'm satisfied to let the piece live through email instead because this method is more sustainable.
+I have an extension that can take a screenshot of a webpage, and send it as an email! 
 
-Gifs of postcard maker
+It's still a little buggy, but I hope to fix iron out the bugs soon. There is also the potential for a one time performance piece where I do hook it up to a physical postcard API, but I'm satisfied to let the piece live through email instead because this method is more sustainable.
+
+#### Gifs of postcard maker
 
 ![mldraw-assets](assets/neopets2.gif)
 ![mldraw-assets](assets/neopets3.gif)
-![mldraw-assets](assets/recieved1.PNG)
-![mldraw-assets](assets/recieved2.PNG)
 
-Postcards recieved in email!
+#### Postcards recieved in email!
+![mldraw-assets](assets/recieved1.PNG)
+
+
