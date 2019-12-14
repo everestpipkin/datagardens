@@ -20,7 +20,7 @@ Video is linked below, clicking on the image will take you to vimeo.
 [![mldraw-assets](assets/mldraw-vimeo.png)](https://vimeo.com/378759111)
 
 ### Result
-Mldraw is live at [mldraw.com](mldraw.com)! After the crit, it's clear that I need to do more user testing because parts of the interface need work, and I asked the class to provide feedback in [this Google doc](https://docs.google.com/document/d/1p9yDmnnGssM7M45s-ksKf4XmhgAgXnyP7GOi9_52u4I/edit). I'm super grateful for the feedback provided, it was amazingly useful! We still need to go public soon, before our free trial credit runs out, but I hope to continue to work on the parts of it before then!
+Mldraw is live at [mldraw.com](http://mldraw.com)! After the crit, it's clear that I need to do more user testing because parts of the interface need work, and I asked the class to provide feedback in [this Google doc](https://docs.google.com/document/d/1p9yDmnnGssM7M45s-ksKf4XmhgAgXnyP7GOi9_52u4I/edit). I'm super grateful for the feedback provided, it was amazingly useful! We still need to go public soon, before our free trial credit runs out, but I hope to continue to work on the parts of it before then!
 
 For the code, please see the [mldraw](https://github.com/khanniie/mldraw) repository.
 
