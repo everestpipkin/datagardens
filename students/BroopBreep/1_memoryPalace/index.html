@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <meta name="Author" content="Made by 'tree'">
+ <meta name="GENERATOR" content="$Version: $ tree v1.8.0 (c) 1996 - 2018 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro $">
+ <title>Directory Tree</title>
+ <style type="text/css">
+  <!-- 
+  BODY { font-family : ariel, monospace, sans-serif; }
+  P { font-weight: normal; font-family : ariel, monospace, sans-serif; color: black; background-color: transparent;}
+  B { font-weight: normal; color: black; background-color: transparent;}
+  A:visited { font-weight : normal; text-decoration : none; background-color : transparent; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:link    { font-weight : normal; text-decoration : none; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:hover   { color : #000000; font-weight : normal; text-decoration : underline; background-color : yellow; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:active  { color : #000000; font-weight: normal; background-color : transparent; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  .VERSION { font-size: small; font-family : arial, sans-serif; }
+  .NORM  { color: black;  background-color: transparent;}
+  .FIFO  { color: purple; background-color: transparent;}
+  .CHAR  { color: yellow; background-color: transparent;}
+  .DIR   { color: blue;   background-color: transparent;}
+  .BLOCK { color: yellow; background-color: transparent;}
+  .LINK  { color: aqua;   background-color: transparent;}
+  .SOCK  { color: fuchsia;background-color: transparent;}
+  .EXEC  { color: green;  background-color: transparent;}
+  -->
+ </style>
+</head>
+<body>
+	<h1>Directory Tree</h1><p>
+	<a href="./">./</a><br>
+	├── <a href=".//About.txt">About.txt</a><br>
+	├── <a href=".//Lettuce/">Lettuce</a><br>
+	│   ├── <a href=".//Lettuce/Certain%20Streets%20/">Certain Streets </a><br>
+	│   │   └── <a href=".//Lettuce/Certain%20Streets%20/They%20That%20Follow/">They That Follow</a><br>
+	│   ├── <a href=".//Lettuce/CertainStreets%20/">CertainStreets </a><br>
+	│   │   ├── <a href=".//Lettuce/CertainStreets%20/Half.jpg">Half.jpg</a><br>
+	│   │   ├── <a href=".//Lettuce/CertainStreets%20/Hotel/">Hotel</a><br>
+	│   │   │   ├── <a href=".//Lettuce/CertainStreets%20/Hotel/colon_0.jpg">colon_0.jpg</a><br>
+	│   │   │   ├── <a href=".//Lettuce/CertainStreets%20/Hotel/oyster.jpg">oyster.jpg</a><br>
+	│   │   │   └── <a href=".//Lettuce/CertainStreets%20/Hotel/restless.jpg">restless.jpg</a><br>
+	│   │   ├── <a href=".//Lettuce/CertainStreets%20/They%20That%20Follow/">They That Follow</a><br>
+	│   │   │   ├── <a href=".//Lettuce/CertainStreets%20/They%20That%20Follow/Intent.jpg">Intent.jpg</a><br>
+	│   │   │   ├── <a href=".//Lettuce/CertainStreets%20/They%20That%20Follow/Tedious.jpg">Tedious.jpg</a><br>
+	│   │   │   └── <a href=".//Lettuce/CertainStreets%20/They%20That%20Follow/To%20Lead/">To Lead</a><br>
+	│   │   │   &nbsp;&nbsp;&nbsp; ├── <a href=".//Lettuce/CertainStreets%20/They%20That%20Follow/To%20Lead/Oh/">Oh</a><br>
+	│   │   │   &nbsp;&nbsp;&nbsp; │   ├── <a href=".//Lettuce/CertainStreets%20/They%20That%20Follow/To%20Lead/Oh/Visit.jpg">Visit.jpg</a><br>
+	│   │   │   &nbsp;&nbsp;&nbsp; │   ├── <a href=".//Lettuce/CertainStreets%20/They%20That%20Follow/To%20Lead/Oh/david-michelangelo.jpg">david-michelangelo.jpg</a><br>
+	│   │   │   &nbsp;&nbsp;&nbsp; │   ├── <a href=".//Lettuce/CertainStreets%20/They%20That%20Follow/To%20Lead/Oh/go.jpg">go.jpg</a><br>
+	│   │   │   &nbsp;&nbsp;&nbsp; │   └── <a href=".//Lettuce/CertainStreets%20/They%20That%20Follow/To%20Lead/Oh/wat.png">wat.png</a><br>
+	│   │   │   &nbsp;&nbsp;&nbsp; ├── <a href=".//Lettuce/CertainStreets%20/They%20That%20Follow/To%20Lead/Question.jpg">Question.jpg</a><br>
+	│   │   │   &nbsp;&nbsp;&nbsp; └── <a href=".//Lettuce/CertainStreets%20/They%20That%20Follow/To%20Lead/ewe2.jpg">ewe2.jpg</a><br>
+	│   │   └── <a href=".//Lettuce/CertainStreets%20/muddering.jpg">muddering.jpg</a><br>
+	│   ├── <a href=".//Lettuce/Exist/">Exist</a><br>
+	│   │   ├── <a href=".//Lettuce/Exist/ether.jpg">ether.jpg</a><br>
+	│   │   └── <a href=".//Lettuce/Exist/spread.jpg">spread.jpg</a><br>
+	│   ├── <a href=".//Lettuce/Streets%20that%20will%20be%20/">Streets that will be </a><br>
+	│   │   └── <a href=".//Lettuce/Streets%20that%20will%20be%20/FurtherSilentPreparation/">FurtherSilentPreparation</a><br>
+	│   ├── <a href=".//Lettuce/StreetsThatWillBe%20/">StreetsThatWillBe </a><br>
+	│   │   ├── <a href=".//Lettuce/StreetsThatWillBe%20/1.jpg">1.jpg</a><br>
+	│   │   ├── <a href=".//Lettuce/StreetsThatWillBe%20/2.jpg">2.jpg</a><br>
+	│   │   ├── <a href=".//Lettuce/StreetsThatWillBe%20/3.jpg">3.jpg</a><br>
+	│   │   ├── <a href=".//Lettuce/StreetsThatWillBe%20/ActionUponPain.jpg">ActionUponPain.jpg</a><br>
+	│   │   ├── <a href=".//Lettuce/StreetsThatWillBe%20/FurtherSilentPreparation/">FurtherSilentPreparation</a><br>
+	│   │   │   ├── <a href=".//Lettuce/StreetsThatWillBe%20/FurtherSilentPreparation/AQuestionYour.jpg">AQuestionYour.jpg</a><br>
+	│   │   │   ├── <a href=".//Lettuce/StreetsThatWillBe%20/FurtherSilentPreparation/ForAllTheOf.jpg">ForAllTheOf.jpg</a><br>
+	│   │   │   ├── <a href=".//Lettuce/StreetsThatWillBe%20/FurtherSilentPreparation/Tea%20Room/">Tea Room</a><br>
+	│   │   │   │   └── <a href=".//Lettuce/StreetsThatWillBe%20/FurtherSilentPreparation/Tea%20Room/Toast.jpg">Toast.jpg</a><br>
+	│   │   │   ├── <a href=".//Lettuce/StreetsThatWillBe%20/FurtherSilentPreparation/TimeEweAnd.jpg">TimeEweAnd.jpg</a><br>
+	│   │   │   ├── <a href=".//Lettuce/StreetsThatWillBe%20/FurtherSilentPreparation/TimeYetHundred.jpg">TimeYetHundred.jpg</a><br>
+	│   │   │   └── <a href=".//Lettuce/StreetsThatWillBe%20/FurtherSilentPreparation/visarevis.jpg">visarevis.jpg</a><br>
+	│   │   ├── <a href=".//Lettuce/StreetsThatWillBe%20/Indeed.jpg">Indeed.jpg</a><br>
+	│   │   ├── <a href=".//Lettuce/StreetsThatWillBe%20/Kubrick.jpg">Kubrick.jpg</a><br>
+	│   │   ├── <a href=".//Lettuce/StreetsThatWillBe%20/PreparingARoom/">PreparingARoom</a><br>
+	│   │   │   └── <a href=".//Lettuce/StreetsThatWillBe%20/PreparingARoom/ToMeetThatYouMeet.jpg">ToMeetThatYouMeet.jpg</a><br>
+	│   │   └── <a href=".//Lettuce/StreetsThatWillBe%20/slidesAlong.jpg">slidesAlong.jpg</a><br>
+	│   ├── <a href=".//Lettuce/The%20Silent%20Drawing%20Room/">The Silent Drawing Room</a><br>
+	│   ├── <a href=".//Lettuce/TheSilentDrawingRoom/">TheSilentDrawingRoom</a><br>
+	│   │   ├── <a href=".//Lettuce/TheSilentDrawingRoom/Action.jpg">Action.jpg</a><br>
+	│   │   ├── <a href=".//Lettuce/TheSilentDrawingRoom/Chimney/">Chimney</a><br>
+	│   │   │   ├── <a href=".//Lettuce/TheSilentDrawingRoom/Chimney/Back.png">Back.png</a><br>
+	│   │   │   └── <a href=".//Lettuce/TheSilentDrawingRoom/Chimney/TheChimneys.jpg">TheChimneys.jpg</a><br>
+	│   │   ├── <a href=".//Lettuce/TheSilentDrawingRoom/IntoBed/">IntoBed</a><br>
+	│   │   │   ├── <a href=".//Lettuce/TheSilentDrawingRoom/IntoBed/AndSeeing.jpg">AndSeeing.jpg</a><br>
+	│   │   │   ├── <a href=".//Lettuce/TheSilentDrawingRoom/IntoBed/Curled1About.jpg">Curled1About.jpg</a><br>
+	│   │   │   ├── <a href=".//Lettuce/TheSilentDrawingRoom/IntoBed/Fall.jpg">Fall.jpg</a><br>
+	│   │   │   └── <a href=".//Lettuce/TheSilentDrawingRoom/IntoBed/Night.jpg">Night.jpg</a><br>
+	│   │   ├── <a href=".//Lettuce/TheSilentDrawingRoom/IntoCorners.jpg">IntoCorners.jpg</a><br>
+	│   │   ├── <a href=".//Lettuce/TheSilentDrawingRoom/LingeredUponTheWindow/">LingeredUponTheWindow</a><br>
+	│   │   │   └── <a href=".//Lettuce/TheSilentDrawingRoom/LingeredUponTheWindow/stand.png">stand.png</a><br>
+	│   │   ├── <a href=".//Lettuce/TheSilentDrawingRoom/Terrace/">Terrace</a><br>
+	│   │   │   ├── <a href=".//Lettuce/TheSilentDrawingRoom/Terrace/ByNaNa.jpg">ByNaNa.jpg</a><br>
+	│   │   │   └── <a href=".//Lettuce/TheSilentDrawingRoom/Terrace/MadeSudden.jpg">MadeSudden.jpg</a><br>
+	│   │   ├── <a href=".//Lettuce/TheSilentDrawingRoom/Window/">Window</a><br>
+	│   │   │   ├── <a href=".//Lettuce/TheSilentDrawingRoom/Window/TheRub.jpg">TheRub.jpg</a><br>
+	│   │   │   ├── <a href=".//Lettuce/TheSilentDrawingRoom/Window/Upon.jpg">Upon.jpg</a><br>
+	│   │   │   ├── <a href=".//Lettuce/TheSilentDrawingRoom/Window/fog.jpg">fog.jpg</a><br>
+	│   │   │   ├── <a href=".//Lettuce/TheSilentDrawingRoom/Window/muzzle.jpg">muzzle.jpg</a><br>
+	│   │   │   └── <a href=".//Lettuce/TheSilentDrawingRoom/Window/on.jpg">on.jpg</a><br>
+	│   │   └── <a href=".//Lettuce/TheSilentDrawingRoom/its.jpg">its.jpg</a><br>
+	│   ├── <a href=".//Lettuce/ThenEweOnlyOnce.jpg">ThenEweOnlyOnce.jpg</a><br>
+	│   └── <a href=".//Lettuce/go.jpg">go.jpg</a><br>
+	└── <a href=".//index.html">index.html</a><br>
+	<br><br>
+	</p>
+	<p>
+
+22 directories, 50 files
+	<br><br>
+	</p>
+	<hr>
+	<p class="VERSION">
+		 tree v1.8.0 © 1996 - 2018 by Steve Baker and Thomas Moore <br>
+		 HTML output hacked and copyleft © 1998 by Francesc Rocher <br>
+		 JSON output hacked and copyleft © 2014 by Florian Sesser <br>
+		 Charsets / OS/2 support © 2001 by Kyosuke Tokoro
+	</p>
+</body>
+</html>

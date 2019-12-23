@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <meta name="Author" content="Made by 'tree'">
+ <meta name="GENERATOR" content="$Version: $ tree v1.8.0 (c) 1996 - 2018 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro $">
+ <title>Directory Tree</title>
+ <style type="text/css">
+  <!-- 
+  BODY { font-family : ariel, monospace, sans-serif; }
+  P { font-weight: normal; font-family : ariel, monospace, sans-serif; color: black; background-color: transparent;}
+  B { font-weight: normal; color: black; background-color: transparent;}
+  A:visited { font-weight : normal; text-decoration : none; background-color : transparent; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:link    { font-weight : normal; text-decoration : none; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:hover   { color : #000000; font-weight : normal; text-decoration : underline; background-color : yellow; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:active  { color : #000000; font-weight: normal; background-color : transparent; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  .VERSION { font-size: small; font-family : arial, sans-serif; }
+  .NORM  { color: black;  background-color: transparent;}
+  .FIFO  { color: purple; background-color: transparent;}
+  .CHAR  { color: yellow; background-color: transparent;}
+  .DIR   { color: blue;   background-color: transparent;}
+  .BLOCK { color: yellow; background-color: transparent;}
+  .LINK  { color: aqua;   background-color: transparent;}
+  .SOCK  { color: fuchsia;background-color: transparent;}
+  .EXEC  { color: green;  background-color: transparent;}
+  -->
+ </style>
+</head>
+<body>
+	<h1>Directory Tree</h1><p>
+	<a href="./">./</a><br>
+	├── <a href=".//index.html">index.html</a><br>
+	├── <a href=".//memory_palace_1/">memory_palace_1</a><br>
+	│   ├── <a href=".//memory_palace_1/ABOUT_PALACE.txt">ABOUT_PALACE.txt</a><br>
+	│   └── <a href=".//memory_palace_1/ground_floor/">ground_floor</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href=".//memory_palace_1/ground_floor/desk/">desk</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href=".//memory_palace_1/ground_floor/desk/flower_in_vase.txt">flower_in_vase.txt</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   └── <a href=".//memory_palace_1/ground_floor/desk/grid_paper.txt">grid_paper.txt</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href=".//memory_palace_1/ground_floor/entertainment_center/">entertainment_center</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href=".//memory_palace_1/ground_floor/entertainment_center/tv.txt">tv.txt</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   └── <a href=".//memory_palace_1/ground_floor/entertainment_center/tv_remote.txt">tv_remote.txt</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href=".//memory_palace_1/ground_floor/stairs_up/">stairs_up</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   ├── <a href=".//memory_palace_1/ground_floor/stairs_up/hand_rail/">hand_rail</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   └── <a href=".//memory_palace_1/ground_floor/stairs_up/hand_rail/door_2/">door_2</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; ├── <a href=".//memory_palace_1/ground_floor/stairs_up/hand_rail/door_2/key.txt">key.txt</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; ├── <a href=".//memory_palace_1/ground_floor/stairs_up/hand_rail/door_2/open_door.txt">open_door.txt</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; └── <a href=".//memory_palace_1/ground_floor/stairs_up/hand_rail/door_2/studio/">studio</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ├── <a href=".//memory_palace_1/ground_floor/stairs_up/hand_rail/door_2/studio/snap_snap.txt">snap_snap.txt</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; └── <a href=".//memory_palace_1/ground_floor/stairs_up/hand_rail/door_2/studio/stairs_up/">stairs_up</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ├── <a href=".//memory_palace_1/ground_floor/stairs_up/hand_rail/door_2/studio/stairs_up/hand_rail/">hand_rail</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   ├── <a href=".//memory_palace_1/ground_floor/stairs_up/hand_rail/door_2/studio/stairs_up/hand_rail/floor_3/">floor_3</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   │   ├── <a href=".//memory_palace_1/ground_floor/stairs_up/hand_rail/door_2/studio/stairs_up/hand_rail/floor_3/balcony_door/">balcony_door</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   │   │   ├── <a href=".//memory_palace_1/ground_floor/stairs_up/hand_rail/door_2/studio/stairs_up/hand_rail/floor_3/balcony_door/balcony_door.txt">balcony_door.txt</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   │   │   └── <a href=".//memory_palace_1/ground_floor/stairs_up/hand_rail/door_2/studio/stairs_up/hand_rail/floor_3/balcony_door/balcony_view.txt">balcony_view.txt</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   │   └── <a href=".//memory_palace_1/ground_floor/stairs_up/hand_rail/door_2/studio/stairs_up/hand_rail/floor_3/mirror.txt">mirror.txt</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   └── <a href=".//memory_palace_1/ground_floor/stairs_up/hand_rail/door_2/studio/stairs_up/hand_rail/open_door.txt">open_door.txt</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; └── <a href=".//memory_palace_1/ground_floor/stairs_up/hand_rail/door_2/studio/stairs_up/walk_up.txt">walk_up.txt</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   └── <a href=".//memory_palace_1/ground_floor/stairs_up/walk_up.txt">walk_up.txt</a><br>
+	│   &nbsp;&nbsp;&nbsp; └── <a href=".//memory_palace_1/ground_floor/window.txt">window.txt</a><br>
+	└── <a href=".//memory_palace_2/">memory_palace_2</a><br>
+	&nbsp;&nbsp;&nbsp; ├── <a href=".//memory_palace_2/ABOUT_PALACE.txt">ABOUT_PALACE.txt</a><br>
+	&nbsp;&nbsp;&nbsp; └── <a href=".//memory_palace_2/Foyer/">Foyer</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ├── <a href=".//memory_palace_2/Foyer/go_upstairs/">go_upstairs</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   ├── <a href=".//memory_palace_2/Foyer/go_upstairs/bathroom_2/">bathroom_2</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   │   ├── <a href=".//memory_palace_2/Foyer/go_upstairs/bathroom_2/bathtub.jpg">bathtub.jpg</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   │   └── <a href=".//memory_palace_2/Foyer/go_upstairs/bathroom_2/shower_curtain.jpg">shower_curtain.jpg</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   ├── <a href=".//memory_palace_2/Foyer/go_upstairs/master_bedroom/">master_bedroom</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   │   ├── <a href=".//memory_palace_2/Foyer/go_upstairs/master_bedroom/big_bed/">big_bed</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   │   │   ├── <a href=".//memory_palace_2/Foyer/go_upstairs/master_bedroom/big_bed/on_top.txt">on_top.txt</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   │   │   └── <a href=".//memory_palace_2/Foyer/go_upstairs/master_bedroom/big_bed/under.txt">under.txt</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   │   └── <a href=".//memory_palace_2/Foyer/go_upstairs/master_bedroom/big_laundry_hamper/">big_laundry_hamper</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; ├── <a href=".//memory_palace_2/Foyer/go_upstairs/master_bedroom/big_laundry_hamper/laundry.png">laundry.png</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; └── <a href=".//memory_palace_2/Foyer/go_upstairs/master_bedroom/big_laundry_hamper/to_do_list.png">to_do_list.png</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   ├── <a href=".//memory_palace_2/Foyer/go_upstairs/mini_closet/">mini_closet</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   │   ├── <a href=".//memory_palace_2/Foyer/go_upstairs/mini_closet/feels_like_eel.jpg">feels_like_eel.jpg</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   │   ├── <a href=".//memory_palace_2/Foyer/go_upstairs/mini_closet/light_bulb.jpg">light_bulb.jpg</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   │   └── <a href=".//memory_palace_2/Foyer/go_upstairs/mini_closet/safe.jpg">safe.jpg</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   └── <a href=".//memory_palace_2/Foyer/go_upstairs/my_bedroom/">my_bedroom</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; └── <a href=".//memory_palace_2/Foyer/go_upstairs/my_bedroom/bed/">bed</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ├── <a href=".//memory_palace_2/Foyer/go_upstairs/my_bedroom/bed/fort.jpg">fort.jpg</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ├── <a href=".//memory_palace_2/Foyer/go_upstairs/my_bedroom/bed/my_cats.jpeg">my_cats.jpeg</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; └── <a href=".//memory_palace_2/Foyer/go_upstairs/my_bedroom/bed/pillow.jpg">pillow.jpg</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; └── <a href=".//memory_palace_2/Foyer/guest_room/">guest_room</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ├── <a href=".//memory_palace_2/Foyer/guest_room/backyard_door/">backyard_door</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   ├── <a href=".//memory_palace_2/Foyer/guest_room/backyard_door/sun1.jpg">sun1.jpg</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   ├── <a href=".//memory_palace_2/Foyer/guest_room/backyard_door/sun2.jpeg">sun2.jpeg</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   ├── <a href=".//memory_palace_2/Foyer/guest_room/backyard_door/sun3.jpeg">sun3.jpeg</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   ├── <a href=".//memory_palace_2/Foyer/guest_room/backyard_door/sun4.jpg">sun4.jpg</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   ├── <a href=".//memory_palace_2/Foyer/guest_room/backyard_door/sun5.jpg">sun5.jpg</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   └── <a href=".//memory_palace_2/Foyer/guest_room/backyard_door/sun6.jpg">sun6.jpg</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ├── <a href=".//memory_palace_2/Foyer/guest_room/bathroom_1/">bathroom_1</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   └── <a href=".//memory_palace_2/Foyer/guest_room/bathroom_1/shower.jpg">shower.jpg</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; └── <a href=".//memory_palace_2/Foyer/guest_room/closet/">closet</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ├── <a href=".//memory_palace_2/Foyer/guest_room/closet/puzzle_1.jpeg">puzzle_1.jpeg</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; └── <a href=".//memory_palace_2/Foyer/guest_room/closet/puzzle_2.jpg">puzzle_2.jpg</a><br>
+	<br><br>
+	</p>
+	<p>
+
+26 directories, 38 files
+	<br><br>
+	</p>
+	<hr>
+	<p class="VERSION">
+		 tree v1.8.0 © 1996 - 2018 by Steve Baker and Thomas Moore <br>
+		 HTML output hacked and copyleft © 1998 by Francesc Rocher <br>
+		 JSON output hacked and copyleft © 2014 by Florian Sesser <br>
+		 Charsets / OS/2 support © 2001 by Kyosuke Tokoro
+	</p>
+</body>
+</html>

@@ -1,118 +1,162 @@
----
----
-weh
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <meta name="Author" content="Made by 'tree'">
+ <meta name="GENERATOR" content="$Version: $ tree v1.8.0 (c) 1996 - 2018 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro $">
+ <title>Directory Tree</title>
+ <style type="text/css">
+  <!-- 
+  BODY { font-family : ariel, monospace, sans-serif; }
+  P { font-weight: normal; font-family : ariel, monospace, sans-serif; color: black; background-color: transparent;}
+  B { font-weight: normal; color: black; background-color: transparent;}
+  A:visited { font-weight : normal; text-decoration : none; background-color : transparent; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:link    { font-weight : normal; text-decoration : none; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:hover   { color : #000000; font-weight : normal; text-decoration : underline; background-color : yellow; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:active  { color : #000000; font-weight: normal; background-color : transparent; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  .VERSION { font-size: small; font-family : arial, sans-serif; }
+  .NORM  { color: black;  background-color: transparent;}
+  .FIFO  { color: purple; background-color: transparent;}
+  .CHAR  { color: yellow; background-color: transparent;}
+  .DIR   { color: blue;   background-color: transparent;}
+  .BLOCK { color: yellow; background-color: transparent;}
+  .LINK  { color: aqua;   background-color: transparent;}
+  .SOCK  { color: fuchsia;background-color: transparent;}
+  .EXEC  { color: green;  background-color: transparent;}
+  -->
+ </style>
+</head>
+<body>
+	<h1>Directory Tree</h1><p>
+	<a href="./">./</a><br>
+	├── <a href=".//About.txt">About.txt</a><br>
+	├── <a href=".//index.html">index.html</a><br>
+	└── <a href=".//sweepthepizzeria/">sweepthepizzeria</a><br>
+	&nbsp;&nbsp;&nbsp; ├── <a href=".//sweepthepizzeria/Back/">Back</a><br>
+	&nbsp;&nbsp;&nbsp; │   ├── <a href=".//sweepthepizzeria/Back/backutensilbydoughmachine/">backutensilbydoughmachine</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   └── <a href=".//sweepthepizzeria/Back/backutensilbydoughmachine/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   ├── <a href=".//sweepthepizzeria/Back/backutensilbyfridge/">backutensilbyfridge</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   └── <a href=".//sweepthepizzeria/Back/backutensilbyfridge/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   ├── <a href=".//sweepthepizzeria/Back/closet/">closet</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   └── <a href=".//sweepthepizzeria/Back/closet/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   ├── <a href=".//sweepthepizzeria/Back/counter/">counter</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   ├── <a href=".//sweepthepizzeria/Back/counter/backsideclosetodoor/">backsideclosetodoor</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   │   └── <a href=".//sweepthepizzeria/Back/counter/backsideclosetodoor/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   ├── <a href=".//sweepthepizzeria/Back/counter/frontside/">frontside</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   │   └── <a href=".//sweepthepizzeria/Back/counter/frontside/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   └── <a href=".//sweepthepizzeria/Back/counter/middleside/">middleside</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; └── <a href=".//sweepthepizzeria/Back/counter/middleside/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   ├── <a href=".//sweepthepizzeria/Back/dishrack/">dishrack</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   └── <a href=".//sweepthepizzeria/Back/dishrack/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   ├── <a href=".//sweepthepizzeria/Back/doughmixer/">doughmixer</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   ├── <a href=".//sweepthepizzeria/Back/doughmixer/backfaceside/">backfaceside</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   │   └── <a href=".//sweepthepizzeria/Back/doughmixer/backfaceside/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   └── <a href=".//sweepthepizzeria/Back/doughmixer/frontfaceside/">frontfaceside</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; └── <a href=".//sweepthepizzeria/Back/doughmixer/frontfaceside/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   ├── <a href=".//sweepthepizzeria/Back/freezer/">freezer</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   └── <a href=".//sweepthepizzeria/Back/freezer/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   ├── <a href=".//sweepthepizzeria/Back/oven/">oven</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   ├── <a href=".//sweepthepizzeria/Back/oven/sideofoven/">sideofoven</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   │   └── <a href=".//sweepthepizzeria/Back/oven/sideofoven/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   └── <a href=".//sweepthepizzeria/Back/oven/underoven/">underoven</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; └── <a href=".//sweepthepizzeria/Back/oven/underoven/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   ├── <a href=".//sweepthepizzeria/Back/pepsifridge/">pepsifridge</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   └── <a href=".//sweepthepizzeria/Back/pepsifridge/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   ├── <a href=".//sweepthepizzeria/Back/restroom/">restroom</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   ├── <a href=".//sweepthepizzeria/Back/restroom/behindtoilet/">behindtoilet</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   │   └── <a href=".//sweepthepizzeria/Back/restroom/behindtoilet/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   └── <a href=".//sweepthepizzeria/Back/restroom/floor/">floor</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; └── <a href=".//sweepthepizzeria/Back/restroom/floor/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   ├── <a href=".//sweepthepizzeria/Back/sink/">sink</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   └── <a href=".//sweepthepizzeria/Back/sink/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   ├── <a href=".//sweepthepizzeria/Back/spicerack/">spicerack</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   └── <a href=".//sweepthepizzeria/Back/spicerack/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   └── <a href=".//sweepthepizzeria/Back/whitefreezer/">whitefreezer</a><br>
+	&nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; └── <a href=".//sweepthepizzeria/Back/whitefreezer/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; ├── <a href=".//sweepthepizzeria/Front/">Front</a><br>
+	&nbsp;&nbsp;&nbsp; │   ├── <a href=".//sweepthepizzeria/Front/Door/">Door</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   └── <a href=".//sweepthepizzeria/Front/Door/doormat/">doormat</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; └── <a href=".//sweepthepizzeria/Front/Door/doormat/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   ├── <a href=".//sweepthepizzeria/Front/Left/">Left</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   ├── <a href=".//sweepthepizzeria/Front/Left/fourseattablebydoor/">fourseattablebydoor</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   │   ├── <a href=".//sweepthepizzeria/Front/Left/fourseattablebydoor/sideoftable/">sideoftable</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   │   │   └── <a href=".//sweepthepizzeria/Front/Left/fourseattablebydoor/sideoftable/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   │   └── <a href=".//sweepthepizzeria/Front/Left/fourseattablebydoor/undertable/">undertable</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   │   &nbsp;&nbsp;&nbsp; └── <a href=".//sweepthepizzeria/Front/Left/fourseattablebydoor/undertable/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   ├── <a href=".//sweepthepizzeria/Front/Left/fourseattableclosetospicerack/">fourseattableclosetospicerack</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   │   ├── <a href=".//sweepthepizzeria/Front/Left/fourseattableclosetospicerack/sideoftable/">sideoftable</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   │   │   └── <a href=".//sweepthepizzeria/Front/Left/fourseattableclosetospicerack/sideoftable/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   │   └── <a href=".//sweepthepizzeria/Front/Left/fourseattableclosetospicerack/undertable/">undertable</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   │   &nbsp;&nbsp;&nbsp; └── <a href=".//sweepthepizzeria/Front/Left/fourseattableclosetospicerack/undertable/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   ├── <a href=".//sweepthepizzeria/Front/Left/spicerack/">spicerack</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   │   ├── <a href=".//sweepthepizzeria/Front/Left/spicerack/behindspicerack/">behindspicerack</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   │   │   └── <a href=".//sweepthepizzeria/Front/Left/spicerack/behindspicerack/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   │   └── <a href=".//sweepthepizzeria/Front/Left/spicerack/infrontofspicerack/">infrontofspicerack</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   │   &nbsp;&nbsp;&nbsp; └── <a href=".//sweepthepizzeria/Front/Left/spicerack/infrontofspicerack/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   └── <a href=".//sweepthepizzeria/Front/Left/twoseattablebydoor/">twoseattablebydoor</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; ├── <a href=".//sweepthepizzeria/Front/Left/twoseattablebydoor/sideoftable/">sideoftable</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; │   └── <a href=".//sweepthepizzeria/Front/Left/twoseattablebydoor/sideoftable/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; └── <a href=".//sweepthepizzeria/Front/Left/twoseattablebydoor/undertable/">undertable</a><br>
+	&nbsp;&nbsp;&nbsp; │   │   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; └── <a href=".//sweepthepizzeria/Front/Left/twoseattablebydoor/undertable/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   └── <a href=".//sweepthepizzeria/Front/Right/">Right</a><br>
+	&nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; ├── <a href=".//sweepthepizzeria/Front/Right/behindpepsimachine/">behindpepsimachine</a><br>
+	&nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; │   └── <a href=".//sweepthepizzeria/Front/Right/behindpepsimachine/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; ├── <a href=".//sweepthepizzeria/Front/Right/fourseattablebydoor/">fourseattablebydoor</a><br>
+	&nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; │   ├── <a href=".//sweepthepizzeria/Front/Right/fourseattablebydoor/sideoftable/">sideoftable</a><br>
+	&nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; │   │   └── <a href=".//sweepthepizzeria/Front/Right/fourseattablebydoor/sideoftable/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; │   └── <a href=".//sweepthepizzeria/Front/Right/fourseattablebydoor/undertable/">undertable</a><br>
+	&nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; └── <a href=".//sweepthepizzeria/Front/Right/fourseattablebydoor/undertable/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; ├── <a href=".//sweepthepizzeria/Front/Right/fourseattableclosetospicerack/">fourseattableclosetospicerack</a><br>
+	&nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; │   ├── <a href=".//sweepthepizzeria/Front/Right/fourseattableclosetospicerack/sideoftable/">sideoftable</a><br>
+	&nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; │   │   └── <a href=".//sweepthepizzeria/Front/Right/fourseattableclosetospicerack/sideoftable/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; │   └── <a href=".//sweepthepizzeria/Front/Right/fourseattableclosetospicerack/undertable/">undertable</a><br>
+	&nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; └── <a href=".//sweepthepizzeria/Front/Right/fourseattableclosetospicerack/undertable/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; ├── <a href=".//sweepthepizzeria/Front/Right/gumballmachines/">gumballmachines</a><br>
+	&nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; │   └── <a href=".//sweepthepizzeria/Front/Right/gumballmachines/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; ├── <a href=".//sweepthepizzeria/Front/Right/spicerack/">spicerack</a><br>
+	&nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; │   ├── <a href=".//sweepthepizzeria/Front/Right/spicerack/behindspicerack/">behindspicerack</a><br>
+	&nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; │   │   └── <a href=".//sweepthepizzeria/Front/Right/spicerack/behindspicerack/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; │   └── <a href=".//sweepthepizzeria/Front/Right/spicerack/infrontofspicerack/">infrontofspicerack</a><br>
+	&nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; └── <a href=".//sweepthepizzeria/Front/Right/spicerack/infrontofspicerack/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; └── <a href=".//sweepthepizzeria/Front/Right/trashcan/">trashcan</a><br>
+	&nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; └── <a href=".//sweepthepizzeria/Front/Right/trashcan/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; └── <a href=".//sweepthepizzeria/Middle/">Middle</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ├── <a href=".//sweepthepizzeria/Middle/broomcloset/">broomcloset</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   └── <a href=".//sweepthepizzeria/Middle/broomcloset/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ├── <a href=".//sweepthepizzeria/Middle/cashregister/">cashregister</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   └── <a href=".//sweepthepizzeria/Middle/cashregister/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ├── <a href=".//sweepthepizzeria/Middle/displaycounter/">displaycounter</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   ├── <a href=".//sweepthepizzeria/Middle/displaycounter/counterbycoffeemachine/">counterbycoffeemachine</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   │   └── <a href=".//sweepthepizzeria/Middle/displaycounter/counterbycoffeemachine/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   ├── <a href=".//sweepthepizzeria/Middle/displaycounter/counterbytipjar/">counterbytipjar</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   │   └── <a href=".//sweepthepizzeria/Middle/displaycounter/counterbytipjar/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   └── <a href=".//sweepthepizzeria/Middle/displaycounter/countermiddle/">countermiddle</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; └── <a href=".//sweepthepizzeria/Middle/displaycounter/countermiddle/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ├── <a href=".//sweepthepizzeria/Middle/freezer/">freezer</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   └── <a href=".//sweepthepizzeria/Middle/freezer/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ├── <a href=".//sweepthepizzeria/Middle/greentable/">greentable</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   └── <a href=".//sweepthepizzeria/Middle/greentable/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ├── <a href=".//sweepthepizzeria/Middle/oven/">oven</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   └── <a href=".//sweepthepizzeria/Middle/oven/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ├── <a href=".//sweepthepizzeria/Middle/pepsirefrigerator/">pepsirefrigerator</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   └── <a href=".//sweepthepizzeria/Middle/pepsirefrigerator/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ├── <a href=".//sweepthepizzeria/Middle/pizzacounter/">pizzacounter</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; │   └── <a href=".//sweepthepizzeria/Middle/pizzacounter/refuse.txt">refuse.txt</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; └── <a href=".//sweepthepizzeria/Middle/woodtable/">woodtable</a><br>
+	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; └── <a href=".//sweepthepizzeria/Middle/woodtable/refuse.txt">refuse.txt</a><br>
+	<br><br>
+	</p>
+	<p>
 
-<h1>Index of ./ -- student work</h1>
-<ul></ul>
-
-<style>body{
-    margin:0;
-    font-family:Roboto,Helvetica,Arial,sans-serif;
-    overflow:hidden;
-    display:flex;
-    flex-direction:column;
-    height:100%;
-    width:100%
-}
-*{
-    text-decoration:none
-}
-h1{
-    font-size:1.3125rem;
-    font-weight:500;
-    line-height:64px;
-    padding:0 20px;
-    margin:0
-}
-h1+ul{
-    height:100%;
-    padding:20px;
-    overflow-y:auto;
-    overflow-x:hidden
-}
-.folder>a:nth-child(1){
-    height:15px;
-    display:inline-block
-}
-.folder>a:nth-child(1):hover{
-    text-decoration:underline
-}
-.file{
-    position:relative;
-}
-.file a{
-    position:absolute;
-    display:inline-block;
-    height:calc(100% - 20px);
-    width:100%;
-    font-size:1rem;
-    font-weight:400;
-    line-height:30px;
-}
-
-ul,ul.tree ul{
-    list-style:none;
-    margin:0;
-    padding:0
-}
-li{
-    display:block
-}
-ul ul{
-    margin-left:10px
-}
-ul li{
-    margin:0;
-    padding:0 20px;
-}
-ul li:last-child{
-    border-left:none
-}
-ul li:before{
-    position:relative;
-    height:5px;
-    width:20px;
-    color:#fff;
-    content:"";
-    display:inline-block;
-    left:-20px
-}
-
-</style>
-
-
-
-
-<script>
-
-var c = document.getElementsByTagName("ul")[0];
-
-function escapeHtml(e){return e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;")}
-
-for(var files=[{% for url in site.static_files %}'{{ url.path | replace: "'", "\'" }}',{% endfor %}],i=0;i<files.length;i++)
- {
-    var url = files[i].split("/").slice(1);
-    console.group(files[i]);
-    console.log("url:   " + url);
-
-    for (var x = 0; x < url.length; x++) {
-        var file = url[x];
-        console.log("file:   " + file);
-        if (file)
-            for (var element = null, parent = null, y = 0; y < x + 1; y++) {
-                var el = document.querySelector("[ref=" + JSON.stringify(y + "-" + url[y]) + "]");
-                console.log(el);
-                if (!el) {
-                    var type = "folder";
-                    url[y].indexOf(".") > -1 && (type = "file"), el = document.createElement("li");
-                    var a = document.createElement("a");
-                    a.innerHTML = escapeHtml(url[y]), a.href = url.slice(0, x + 1).join("/"), el.appendChild(a), el.setAttribute("ref", y + "-" + url[y]), el.setAttribute("level", y), el.setAttribute("class", type), parent ? parent.appendChild(el) : c.appendChild(el)
-                }
-                parent = el
-            }
-    }
-    console.groupEnd(files[i])
-}
-document.title = document.querySelector("h1").innerHTML += " (" + files.length + " items)"
-
-</script>
+66 directories, 49 files
+	<br><br>
+	</p>
+	<hr>
+	<p class="VERSION">
+		 tree v1.8.0 © 1996 - 2018 by Steve Baker and Thomas Moore <br>
+		 HTML output hacked and copyleft © 1998 by Francesc Rocher <br>
+		 JSON output hacked and copyleft © 2014 by Florian Sesser <br>
+		 Charsets / OS/2 support © 2001 by Kyosuke Tokoro
+	</p>
+</body>
+</html>
