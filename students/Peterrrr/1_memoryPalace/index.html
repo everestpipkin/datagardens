@@ -1,0 +1,118 @@
+---
+---
+weh
+
+<h1>Index of ./ -- student work</h1>
+<ul></ul>
+
+<style>body{
+    margin:0;
+    font-family:Roboto,Helvetica,Arial,sans-serif;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    width:100%
+}
+*{
+    text-decoration:none
+}
+h1{
+    font-size:1.3125rem;
+    font-weight:500;
+    line-height:64px;
+    padding:0 20px;
+    margin:0
+}
+h1+ul{
+    height:100%;
+    padding:20px;
+    overflow-y:auto;
+    overflow-x:hidden
+}
+.folder>a:nth-child(1){
+    height:15px;
+    display:inline-block
+}
+.folder>a:nth-child(1):hover{
+    text-decoration:underline
+}
+.file{
+    position:relative;
+}
+.file a{
+    position:absolute;
+    display:inline-block;
+    height:calc(100% - 20px);
+    width:100%;
+    font-size:1rem;
+    font-weight:400;
+    line-height:30px;
+}
+
+ul,ul.tree ul{
+    list-style:none;
+    margin:0;
+    padding:0
+}
+li{
+    display:block
+}
+ul ul{
+    margin-left:10px
+}
+ul li{
+    margin:0;
+    padding:0 20px;
+}
+ul li:last-child{
+    border-left:none
+}
+ul li:before{
+    position:relative;
+    height:5px;
+    width:20px;
+    color:#fff;
+    content:"";
+    display:inline-block;
+    left:-20px
+}
+
+</style>
+
+
+
+
+<script>
+
+var c = document.getElementsByTagName("ul")[0];
+
+function escapeHtml(e){return e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;")}
+
+for(var files=[{% for url in site.static_files %}'{{ url.path | replace: "'", "\'" }}',{% endfor %}],i=0;i<files.length;i++)
+ {
+    var url = files[i].split("/").slice(1);
+    console.group(files[i]);
+    console.log("url:   " + url);
+
+    for (var x = 0; x < url.length; x++) {
+        var file = url[x];
+        console.log("file:   " + file);
+        if (file)
+            for (var element = null, parent = null, y = 0; y < x + 1; y++) {
+                var el = document.querySelector("[ref=" + JSON.stringify(y + "-" + url[y]) + "]");
+                console.log(el);
+                if (!el) {
+                    var type = "folder";
+                    url[y].indexOf(".") > -1 && (type = "file"), el = document.createElement("li");
+                    var a = document.createElement("a");
+                    a.innerHTML = escapeHtml(url[y]), a.href = url.slice(0, x + 1).join("/"), el.appendChild(a), el.setAttribute("ref", y + "-" + url[y]), el.setAttribute("level", y), el.setAttribute("class", type), parent ? parent.appendChild(el) : c.appendChild(el)
+                }
+                parent = el
+            }
+    }
+    console.groupEnd(files[i])
+}
+document.title = document.querySelector("h1").innerHTML += " (" + files.length + " items)"
+
+</script>
