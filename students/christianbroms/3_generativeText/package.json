@@ -19,7 +19,7 @@
   "homepage": "https://github.com/cbroms/website-poetry#readme",
   "dependencies": {
     "compromise": "^11.14.3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-react-views": "^0.11.0",
     "node-html-parser": "^1.1.16",
     "react": "^16.10.2",
